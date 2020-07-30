@@ -1,0 +1,12 @@
+	svg{
+	  border: none;
+	}
+
+	.hide {
+	  opacity:0;
+	}
+
+	.show {
+		transition: 2s;
+	  opacity:1;
+	}
