@@ -1,12 +1,75 @@
-	svg{
-	  border: none;
-	}
+:root{
+  --title-color: #182a6b;
+  --background-color: #e3e8e8;
+  --nav-color: #ffffff;
+  --nav-border-color: #848588;
+}
 
-	.hide {
-	  opacity:0;
-	}
+@font-face {
+  font-family: 'Freight';
+  src: url("/fonts/Freight Book.otf") format('opentype');
+  /* unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; */
+}
 
-	.show {
-		transition: 2s;
-	  opacity:1;
-	}
+@font-face {
+  font-family: 'Freight Italic';
+  src: url("/fonts/Freight Italic.ttf") format('truetype');
+  /* unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; */
+}
+
+.background
+{
+  background-color: var(--background-color);
+}
+
+
+nav {
+  background-color: var(--nav-color);
+  border: solid 2px var(--nav-border-color);
+}
+
+.nav-title {
+  font-family: 'Freight';
+  font-size: large;
+  font-style: normal;
+  font-weight: 400;
+  text-decoration-line: underline;
+  color: var(--navtext-color);
+}
+
+.index-title {
+  font-family: 'Freight';
+  font-size: xxx-large;
+  font-style: normal;
+  font-weight: 400;
+  text-decoration-line: underline;
+  color: var(--title-color);
+}
+
+.index-title:hover {
+  font-family: 'Freight Italic';
+  color: white;
+  text-decoration-line: underline;
+  cursor: pointer;
+}
+
+p {
+  margin: .2em;
+}
+
+.centered
+{
+  display: flex;
+  padding: .2em;
+  text-align: center;
+  width: auto;
+  height: auto;
+  justify-content: center;
+}
+
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 11em 11em 8em 8em 10em 8.5em;
+  grid-template-rows: 275px 100px 300px;
+}
