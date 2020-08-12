@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html class="background">
+<head>
+  <meta charset="UTF-8"/>
+  <title>Research</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<nav>
+  <div class="nav-container">
+  <span class="nav-title"><a href="../ARCHIVE/index.html">Archive</a></span>
+  <span class="nav-title"><a href="../DATABASE/index.html"></a>Database</span>
+  <span class="nav-title"><a href="/DESK/index.html"></a>Desk</span>
+  <span class="nav-title"><a href="../SLIDES/slides.html"></a>Slides</span>
+  <span class="nav-title"><a href="/PROJECT/index.html"></a>Project</span>
+  <span class="nav-title"><a href="/MODEL/index.html"></a>Model</span>
+</div>
+</nav>
+
+<body>
+  <main>
+
+<!-- buttons for sorting -->
+  <section>
+    <span class="centerblock">
+      <button id="details">DETAILS/MATERIALS</button>
+      <button id="spacetypes">SPACETYPES</button>
+      <button id="projects">PROJECTS/SPACETYPES</button>
+      <button id="atmospheres">ATMOSPHERES</button>
+      <button id="words">WORDS</button>
+      <button id="sites">SITES</button>
+      <button id="reset">RESET</button>
+    </span>
+  </section>
+
+<!-- cards -->
+  <section>
+    <div id="cards-container" class="centerblock">
+      <template>
+        <div class = "card-tile">
+          <h2>Title</h2>
+          <h3>Author</h3>
+
+          <h4>Context</h4>
+          <p>sample text</p>
+
+          <h4>Analysis</h4>
+          <p>sample text</p>
+
+          <image>Image1</image>
+        </div>
+      </template>
+    </div>
+  </section>
+
+  </main>
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

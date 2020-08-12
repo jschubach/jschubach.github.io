@@ -3,6 +3,7 @@
   --background-color: #e3e8e8;
   --nav-color: #ffffff;
   --nav-border-color: #848588;
+  --navtext-current-color: white;
 }
 
 @font-face {
@@ -37,6 +38,16 @@ nav {
   color: var(--navtext-color);
 }
 
+.nav-title-current {
+  font-family: 'Freight';
+  font-size: large;
+  font-style: normal;
+  font-weight: 400;
+  text-decoration-line: underline;
+  color: var(--navtext-current-color);
+}
+
+
 .index-title {
   font-family: 'Freight';
   font-size: xxx-large;
@@ -53,8 +64,31 @@ nav {
   cursor: pointer;
 }
 
+a {
+  color: inherit;
+  padding: 0;
+}
+
 p {
   margin: .2em;
+}
+
+iframe {
+  display: block;
+  text-align: center;
+  margin-left: 2em;
+  margin-right: 2em;
+  padding: 0;
+}
+
+footer {
+  text-align: center;
+  font-family: 'Freight';
+  font-size: medium;
+  font-style: normal;
+  font-weight: 400;
+  font-kerning: .2em;
+  color: var(--title-color);
 }
 
 .centered
@@ -71,5 +105,5 @@ p {
 .wrapper {
   display: grid;
   grid-template-columns: 11em 11em 8em 8em 10em 8.5em;
-  grid-template-rows: 275px 100px 300px;
+  grid-template-rows: 275px 100px 275px;
 }

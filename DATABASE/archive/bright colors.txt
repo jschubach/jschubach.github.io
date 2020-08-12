@@ -1,0 +1,8 @@
+:root{
+  --details-color: 	#F9D710;
+  --spacetypes-color: #ED5D43;
+  --projects-color: #457C73;
+  --atmospheres-color: #75BFB1;
+  --words-color: #ED8F85;
+  --sites-color:	#808080;
+  --hover-color: Gray;
