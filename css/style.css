@@ -32,7 +32,6 @@
   background-color: white;
 }
 
-
 nav {
   background-color: var(--nav-color);
   border: solid 2px var(--nav-border-color);
@@ -105,8 +104,7 @@ header, footer {
   padding: .4em;
 }
 
-.centered
-{
+.centered {
   display: flex;
   padding: .2em;
   text-align: center;
@@ -129,8 +127,6 @@ header, footer {
 }
 
 .side-nav-text-right {
-  /* writing-mode: vertical-rl;
-  text-orientation: mixed; */
   text-align: center;
   font-family: 'Freight';
   font-size: medium;
@@ -175,7 +171,7 @@ header, footer {
   flex-direction: column;
   justify-content: center;
   font-family: 'Freight';
-  font-size: xxx-large;
+  font-size: 4vw;
   font-style: normal;
   font-weight: 400;
   text-decoration-line: underline;

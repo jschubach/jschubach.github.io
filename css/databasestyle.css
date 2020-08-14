@@ -272,7 +272,7 @@ p {
 #cards-container{
   display: flex;
   align-items: stretch;
-  justify-content: space-between;
+  justify-content: center;
   flex-flow: row wrap;
 }
 
