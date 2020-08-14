@@ -25,7 +25,7 @@ database = [
       datatype: 'atmospheres',
       name: 'Free-Period',
       author: ' ',
-      context: 'Block of time with no class. For being alone, for leaving campus, for studying, or for messing around',
+      context: 'Block of time with no class. For being alone, for leaving campus, for studying, or for mischief',
       analysis: 'Space in the schedule that is unprogrammed and does not necessarily take place in the classroom',
       // image: ['assets/database/image3.jpg']
       // image: [assets/database/cmu-01.jpg, assets/database/cmu-02.jpg],
@@ -35,8 +35,8 @@ database = [
       datatype: 'details',
       name: 'Chainlink Fence',
       author: 'dePaor',
-      context: 'A material used to make a wiry barrier in industrial circumstances',
-      analysis: 'Its shininess, diamonding, and diaphanous qualities give the fence some elegance. Here creasing it along the diagonal makes it glitter and gives it different transparency along the oblique',
+      context: 'A shiny and diaphanous material used to make an industrial barrier',
+      analysis: 'Creasing it along the diagonal makes it glitter and generates opacity on the oblique',
       image: ['assets/database/chainlink-01.jpg'],
       // compare: ["example 1", "example 2"]
       // tags: ["Paradoxes", "Leveraged Flaws"]
@@ -118,7 +118,7 @@ database = [
       name: 'Knowlton SoA',
       author: 'Scogin Elam',
       context: 'Requirement from donor for a marble facade and display of columns showing the four orders',
-      analysis: 'The response is detailing of the marble in small shakes that expresses "the relationship between the individual and the collective" (Kipnis) and positioning and framing of the columns such that they appear to be seen from the building as if they are a page in a book',
+      analysis: 'The response is the marble shakes which represent the idiosyncrasy of the individual within the collective and the framing of the columns like a page.',
       image: ['assets/database/knowlton-01.jpg', 'assets/database/knowlton-02.jpg'],
       // compare: ["example 1", "example 2"]
       // tags: ["Paradoxes", "Leveraged Flaws"]
