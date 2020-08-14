@@ -1,7 +1,0 @@
-:root{
-  --details-color: #848588;
-  --spacetypes-color: #182a6b;
-  --projects-color: #4e6d53;
-  --atmospheres-color: #cca26b;
-  --words-color: black;
-  --sites-color: #848588;
