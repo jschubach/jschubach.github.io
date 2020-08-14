@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html class="background">
+<html class="white-background">
 <head>
   <meta charset="UTF-8"/>
   <title>Slides</title>
   <link rel="stylesheet" href="css/iframestyle.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <script>
@@ -13,12 +14,16 @@ console.log("secure");
 </script>
 
 <body>
-<!-- //TODO figure out how to SETCOOKIE so that third party ifrme is fine -->
-
-<iframe id="slides"
-src="https://docs.google.com/presentation/d/e/2PACX-1vQg6b9k3p3eMLQxKrOaTnSSZmA3FaW2qaiIEhHfrCy5ae5tuK7umpY-myJbyuOd0p6KKYCxgduITO6C/embed?start=true&loop=false&delayms=60000"
-frameborder="0" width="1440" height="839" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">
-</iframe>
+<span class="page-wrapper">
+  <span class="side-nav-text-left"><a href=index.html>Index</a></span>
+  <div class=iframe-wrapper>
+  <iframe id="slides"
+  src="https://docs.google.com/presentation/d/e/2PACX-1vQg6b9k3p3eMLQxKrOaTnSSZmA3FaW2qaiIEhHfrCy5ae5tuK7umpY-myJbyuOd0p6KKYCxgduITO6C/embed?start=true&loop=false&delayms=60000"
+  frameborder="0" width="100%" height="100%" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">
+  </iframe>
+  </div>
+  <span class="side-nav-text-right"><a href=about.html>About</a></span>
+</span>
 
 </body>
 </html>

@@ -7,9 +7,16 @@ iframe {
   padding: 0;
 }
 
-div {
+#slides {
+  flex: 2;
+  position: relative;
+  width: 80%;
+  height: 110vh;
+}
+
+.iframe-wrapper {
   display: flex;
-  justify-content: center;
+  flex: 20;
   align-items: center;
   padding-top: 2vw;
   padding-bottom: 3vw;

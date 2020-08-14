@@ -158,6 +158,15 @@ database = [
       // image: [assets/database/cmu-01.jpg, assets/database/cmu-02.jpg],
       // compare: ["example 1", "example 2"]
       // tags: ["Paradoxes", "Leveraged Flaws"]
+    },,{
+      datatype: 'atmospheres',
+      name: 'Deja Vu',
+      author: '',
+      context: 'The surreal sense that you have been somewhere or done something before (from the swimming pool project, and OMAs Kunsthalle)',
+      analysis: 'Could this same experience be used to set up situations that make the building an instrument of self-reflection?',
+      // image: [assets/database/cmu-01.jpg, assets/database/cmu-02.jpg],
+      // compare: ["example 1", "example 2"]
+      // tags: ["Paradoxes", "Leveraged Flaws"]
     },{
       datatype: 'projects',
       name: 'Agadir',
