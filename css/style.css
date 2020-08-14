@@ -6,28 +6,10 @@
   --navtext-current-color: white;
 }
 
-
-/* Smartphones (portrait) ----------- */
-@media only screen
-and (max-width : 320px) {
+@media screen and (max-width: 768px) {
   .index-wrapper {
-    flex: 20;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    border: 1px dotted var(--title-color);
-  }
-  .index-title {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    font-family: 'Freight';
-    font-size: xxx-large;
-    font-style: normal;
-    font-weight: 400;
-    text-decoration-line: underline;
-    color: var(--title-color);
-  }
+      display: flex;
+    }
 }
 
 @font-face {
@@ -58,7 +40,7 @@ nav {
 
 .nav-title {
   font-family: 'Freight';
-  font-size: large;
+  font-size: 5vw;
   font-style: normal;
   font-weight: 400;
   text-decoration-line: underline;
