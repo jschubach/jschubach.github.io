@@ -269,6 +269,13 @@ p {
   justify-content: center;
 }
 
+#cards-container{
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  flex-flow: row wrap;
+}
+
 .card-tile {
   display: inline-block;
   text-align: left;
