@@ -281,7 +281,7 @@ p {
   text-align: left;
   /* width: 8vw; */
   width: 12vw;
-  height: 28vw;
+  height: 28vh;
   padding: 1em;
   border: 4px;
   margin: .4em;
@@ -369,8 +369,8 @@ p {
   height: auto;
   padding: .4vw;
   border: 1em;
-  margin-top: 2vw;
-  margin-bottom: 2vw;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
   background-color: inherit;
 }
 

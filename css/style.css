@@ -6,10 +6,45 @@
   --navtext-current-color: white;
 }
 
-@media screen and (max-width: 768px) {
-  .index-wrapper {
+
+/* index styling for portrait mode on mobile */
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .mobile-show {
       display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
     }
+
+  .page-wrapper {
+    display: block;
+  }
+
+  .web-show {
+    display: none;
+  }
+
+  .index-wrapper {
+    display: flex;
+  }
+
+  .index-title {
+    font-size: 11vh;
+    font-family: 'Freight';
+    font-style: normal;
+    font-weight: 400;
+    text-decoration-line: underline;
+    color: var(--title-color);
+  }
+
+  .side-nav-text-right, .side-nav-text-left {
+    display: block;
+    text-align: center;
+    font-family: 'Freight';
+    font-size: medium;
+    color: var(--title-color);
+    padding: 1em;
+  }
 }
 
 @font-face {
@@ -22,6 +57,94 @@
   font-family: 'Freight Italic';
   src: url("/fonts/Freight Italic.ttf") format('truetype');
   /* unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; */
+}
+
+@media only screen and (min-width: 480px) {
+  .mobile-show {
+    display: none;
+  }
+
+  .centered {
+    display: flex;
+    padding: .2em;
+    text-align: center;
+    width: auto;
+    height: auto;
+    justify-content: center;
+  }
+
+  .page-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .side-nav {
+    flex: 1 20px;
+    align-items: center;
+    position: absolute;
+    left: 0;
+  }
+
+  .side-nav-text-right {
+    text-align: center;
+    font-family: 'Freight';
+    font-size: medium;
+    color: var(--title-color);
+    padding: .2em;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+  }
+
+  .side-nav-text-left {
+    /* writing-mode: vertical-rl;
+    text-orientation: mixed; */
+    text-align: center;
+    font-family: 'Freight';
+    font-size: medium;
+    color: var(--title-color);
+    padding: .2em;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+  }
+
+  .side-nav-text-right:hover, .side-nav-text-left:hover {
+    color: white;
+  }
+
+  .index-wrapper {
+    flex: 100vw;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: 11.5em 11.5em 8em 8em 8.5em 11em;
+    grid-template-rows: 5vw 30vw 5vw;
+    border: 1px dotted var(--title-color);
+  }
+
+  .index-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Freight';
+    font-size: 4vw;
+    font-style: normal;
+    font-weight: 400;
+    text-decoration-line: underline;
+    color: var(--title-color);
+  }
+
+  .index-title:hover {
+    font-family: 'Freight Italic';
+    color: white;
+    text-decoration-line: underline;
+    cursor: pointer;
+  }
 }
 
 .background {
@@ -102,87 +225,6 @@ header, footer {
   font-kerning: .2em;
   color: var(--title-color);
   padding: .4em;
-}
-
-.centered {
-  display: flex;
-  padding: .2em;
-  text-align: center;
-  width: auto;
-  height: auto;
-  justify-content: center;
-}
-
-.page-wrapper {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.side-nav {
-  flex: 1 20px;
-  align-items: center;
-  position: absolute;
-  left: 0;
-}
-
-.side-nav-text-right {
-  text-align: center;
-  font-family: 'Freight';
-  font-size: medium;
-  color: var(--title-color);
-  padding: .2em;
-  -webkit-transform: rotate(90deg);
-  -moz-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  -o-transform: rotate(90deg);
-  transform: rotate(90deg);
-}
-
-.side-nav-text-left {
-  /* writing-mode: vertical-rl;
-  text-orientation: mixed; */
-  text-align: center;
-  font-family: 'Freight';
-  font-size: medium;
-  color: var(--title-color);
-  padding: .2em;
-  -webkit-transform: rotate(-90deg);
-  -moz-transform: rotate(-90deg);
-  -ms-transform: rotate(-90deg);
-  -o-transform: rotate(-90deg);
-  transform: rotate(-90deg);
-}
-
-.side-nav-text-right:hover, .side-nav-text-left:hover {
-  color: white;
-}
-
-.index-wrapper {
-  flex: 20;
-  display: grid;
-  grid-template-columns: 11.5em 11.5em 8em 8em 8.5em 11em;
-  grid-template-rows: 5vw 30vw 5vw;
-  border: 1px dotted var(--title-color);
-}
-
-.index-title {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  font-family: 'Freight';
-  font-size: 4vw;
-  font-style: normal;
-  font-weight: 400;
-  text-decoration-line: underline;
-  color: var(--title-color);
-}
-
-.index-title:hover {
-  font-family: 'Freight Italic';
-  color: white;
-  text-decoration-line: underline;
-  cursor: pointer;
 }
 
 .text-wrapper {

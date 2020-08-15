@@ -1,7 +1,7 @@
 iframe {
   display: block;
   width: 100%;
-  height: 110vh;
+  height: 100vh;
   frameborder: 20px;
   margin: 0;
   padding: 0;
@@ -18,8 +18,8 @@ iframe {
   display: flex;
   flex: 20;
   align-items: center;
-  padding-top: 2vw;
-  padding-bottom: 3vw;
+  padding-top: 2vh;
+  padding-bottom: 3vh;
 }
 
 iframe:hover {
