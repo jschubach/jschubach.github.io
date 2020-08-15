@@ -22,7 +22,9 @@
     }
 
   .page-wrapper {
-    display: block;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
   }
 
   .web-show {
@@ -40,6 +42,7 @@
     font-weight: 400;
     text-decoration-line: underline;
     color: var(--title-color);
+    text-align: center;
   }
 
   .side-nav-text-right, .side-nav-text-left {
@@ -47,7 +50,19 @@
   }
 
   .mobile-wrapper {
-    padding: 3em;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .text-wrapper {
+    justify-content: center;
+    align-items: center;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
   }
 }
 
@@ -157,6 +172,15 @@
   .white-background {
     background-color: white;
   }
+
+  .text-wrapper {
+    justify-content: center;
+    align-items: center;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+    padding-left: 20vw;
+    padding-right: 20vw;
+  }
 }
 
 nav {
@@ -229,15 +253,6 @@ header, footer {
   font-kerning: .2em;
   color: var(--title-color);
   padding: .4em;
-}
-
-.text-wrapper {
-  justify-content: center;
-  align-items: center;
-  padding-top: 3vw;
-  padding-bottom: 3vw;
-  padding-left: 20vw;
-  padding-right: 20vw;
 }
 
 .archive-wrapper {
