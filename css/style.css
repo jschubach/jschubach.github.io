@@ -9,6 +9,11 @@
 
 /* index styling for portrait mode on mobile */
 @media only screen and (min-width: 320px) and (max-width: 480px) {
+
+  html {
+    background-color: #add8d8;
+  }
+
   .mobile-show {
       display: flex;
       flex-direction: column;
@@ -38,12 +43,11 @@
   }
 
   .side-nav-text-right, .side-nav-text-left {
-    display: block;
-    text-align: center;
-    font-family: 'Freight';
-    font-size: medium;
-    color: var(--title-color);
-    padding: 1em;
+    display: none;
+  }
+
+  .mobile-wrapper {
+    padding: 3em;
   }
 }
 
@@ -145,14 +149,14 @@
     text-decoration-line: underline;
     cursor: pointer;
   }
-}
 
-.background {
-  background-color: var(--background-color);
-}
+  html {
+    background-color: var(--background-color);
+  }
 
-.white-background {
-  background-color: white;
+  .white-background {
+    background-color: white;
+  }
 }
 
 nav {
