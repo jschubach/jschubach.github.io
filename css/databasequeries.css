@@ -1,19 +1,4 @@
-@media only screen and (min-width: 0px) and (max-width: 730px) {
-
-  .card-tile {
-    width: 70vw;
-    height: 20vh;
-  }
-
-  .modal {
-    width: 70vw;
-    max-width: 90vw;
-  }
-
-
-}
-
-@media only screen and (min-width: 730px) {
+@media (min-width: 800px) and (max-width: 1500px) {
 
   .card-tile {
     width: 12vw;
@@ -23,6 +8,21 @@
   .modal {
     width: 40vw;
     max-width: 80vw;
+  }
+
+
+}
+
+@media (min-width: 0px) and (max-width: 800px) {
+
+  .card-tile {
+    width: 70vw;
+    height: 40vh;
+  }
+
+  .modal {
+    width: 70vw;
+    max-width: 90vw;
   }
 
 
