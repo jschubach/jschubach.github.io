@@ -158,7 +158,7 @@ database = [
       // image: [assets/database/cmu-01.jpg, assets/database/cmu-02.jpg],
       // compare: ["example 1", "example 2"]
       // tags: ["Paradoxes", "Leveraged Flaws"]
-    },,{
+    },{
       datatype: 'atmospheres',
       name: 'Deja Vu',
       author: '',
@@ -192,6 +192,7 @@ database = [
       context: 'A study of the time of day that particular programs are activated encourages OMA to "invent" additional program to populate the building',
       analysis: 'Could this logic or type of study be used to assist in the seasonal activation of the school?',
       image: ['assets/database/yokohama-01.jpg'],
+      sources: ['SMLXL Book']
       // compare: ["example 1", "example 2"]
       // tags: ["Paradoxes", "Leveraged Flaws"]
     },{
@@ -199,7 +200,7 @@ database = [
       name: 'Scaffolding',
       author: '',
       context: 'Typically temporary, but could it be made to look like the Doris Saulcedos "Disremembered"?',
-      analysis: 'Here the density and diagonal of the scaffold makes it extraordinary, extra shoring provided to support the load atop',
+      analysis: 'Here the density and diagonal of the scaffold makes it unfamiliar (extra shoring provided to support the load atop it)',
       image: ['assets/database/scaffold-01.jpg', 'assets/database/scaffold-02.jpg', 'assets/database/scaffold-03.jpg'],
       // compare: ["example 1", "example 2"]
       // tags: ["Paradoxes", "Leveraged Flaws"]

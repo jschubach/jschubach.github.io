@@ -24,6 +24,7 @@ function addImage({src: src, wrapper: wrapper, parent: parent, class: className}
 function populateCards(data) {
   populateCardsIndex++;
   var cardIndex = 0;
+  var sortedCardIndex = 0;
 
   data.forEach(entry => {
     let colorclass = entry.datatype;
@@ -44,12 +45,15 @@ function populateCards(data) {
     //if first time loading page, assign unique card Incides
     if (populateCardsIndex == 1) {
       cardIndex++;
+      cardTile.setAttribute("data-index", cardIndex);
     }
 
-    cardTile.setAttribute("data-index", cardIndex);
-
+    if (populateCardsIndex != 1) {
+      cardTile.setAttribute("data-index-sorted", sortedCardIndex);
+      sortedCardIndex++;
+      console.log("sorted index added");
+    }
   })
-  console.log(populateCardsIndex);
 }
 
 function renderModal(cardData) {
@@ -60,8 +64,9 @@ function renderModal(cardData) {
   let cardName = createAndAppend({ itemType: "h2", className: undefined, parent: modalHeaderBox, text: cardData.name });
   let cardAuthor = createAndAppend({ itemType: "h3", className: undefined, parent: modalHeaderBox, text: cardData.author });
   let modalHeaderBoxTwo = createAndAppend({ itemType: "div", className: "modal-header-box", parent: modalHeader, text: undefined });
-  let closeButton = createAndAppend({ itemType: "button", className: "close-button", parent: modalHeaderBoxTwo, text: "x" });
-  closeButton.setAttribute("data", "data-close-button");
+  // let closeButton = createAndAppend({ itemType: "button", className: "close-button", parent: modalHeaderBoxTwo, text: "x" });
+  // closeButton.setAttribute("data", "close-button");
+  // closeButton.setAttribute('onclick', console.log("working"));
 
   let modalContextHeader = createAndAppend({ itemType: "h4", className: undefined, parent: modalTile, text: "Context" });
   let modalContext = createAndAppend({ itemType: "p", className: undefined, parent: modalTile, text: cardData.context });
@@ -74,6 +79,14 @@ function renderModal(cardData) {
     let image = addImage({src: cardData.image[0], wrapper: imageGrid, parent: modalTile, class: "modal-img"});
   }
 
+  if (cardData.sources) {
+    let sources = cardData.sources;
+    let sourcesHeader = createAndAppend({ itemType: "span", className: "img-source-header", parent: modalTile, text: "Image Sources:  " });
+    sources.forEach(source => {
+      createAndAppend({ itemType: "span", className: "img-source", parent: modalTile, text: source });
+    })
+  }
+
   if (cardData.tags) {
     let tagsWrapper = createAndAppend({ itemType: "div", className: "tags-wrapper", parent: modalTile, text: undefined });
     let tags = cardData.tags;
@@ -81,7 +94,6 @@ function renderModal(cardData) {
       createAndAppend({ itemType: "span", className: "modal-tag", parent: tagsWrapper, text: tag });
     })
   }
-
   openModal(modalTile);
 }
 
@@ -89,9 +101,12 @@ function openModal(modal) {
   if (modal == null) return
   modal.classList.add('active');
   console.log("modal activated");
-  console.log(overlay);
   overlay.classList.add('active');
   console.log("overlay activated");
+
+  const closeModalButtons = document.querySelectorAll('[close-button]');
+  console.log("modal buttons are");
+  console.log(closeModalButtons);
 }
 
 function closeModal(modal) {
@@ -118,48 +133,59 @@ function addButtonSensor(buttonID) {
   button.addEventListener('click', function() {
     //create new array for dta matching selector
     clearCardsContainer();
+    populateCards(sort(selector));
+    addCardSensorsPostSort();
+  })
+}
+
+//returns an array called selected
+function sort(selector) {
     let selected = [];
-    // var selector = "spacetypes"
     database.forEach(entry => {
       let datatype = entry.datatype;
       if (datatype === selector) {
         selected.push(entry);
       }
     })
-    populateCards(selected);
-    console.log("sorted");
-  })
+  return selected;
 }
 
-//NEED THIS TO RUN AFTER CARDS HAVE BEEN POPULATED
-//add event listeners on all cards for if they are clicked on
+
 function addCardSensors() {
   var cards = document.querySelectorAll(".card-tile");
   cards.forEach(card => {
     card.addEventListener('click', function (event) {
-      let indexstring = card.dataset.index;
-      var index = (parseInt(indexstring, 10) - 1);
-      let cardData = database[index];
-      renderModal(cardData);
-      // alert(cardData.datatype);
+
+//make index=overall data array index if its showing all cards
+      if (card.dataset.index) {
+        let indexString = card.dataset.index;
+        var index = (parseInt(indexString, 10) - 1);
+        console.log("index added");
+      }
+
+      loadModal(index, database);
     });
-  })
+  });
 }
 
-//if a card is clicked on, get its data-index, go back to database[] and grab item with that index,
-//store its key/value pairs as variables, and send those variables to renderModal
+function addCardSensorsPostSort() {
+    var cards = document.querySelectorAll(".card-tile");
+    cards.forEach(card => {
+      var cardname = card.querySelector("h2").textContent;
+      console.log(cardname);
+      var sortedIndex = database.findIndex(x => x.name === cardname);
+      console.log(sortedIndex);
 
-function addModalButtonSensor(buttonID) {
-  var button = document.querySelector(buttonID);
-  let selector = button.id;
-  console.log(selector);
-  var confirmation = buttonID.concat(" sensor added");
-  console.log(confirmation);
+      card.addEventListener('click', function (event) {
+        loadModal(sortedIndex, database);
+      });
+    });
+}
 
-  button.addEventListener('click', function() {
-      renderModal();
-    })
-    console.log("modaled");
+function loadModal(index, array) {
+  let cardData = array[index];
+  renderModal(cardData);
+  console.log("inside loadModal function");
 }
 
 var populateCardsIndex = 0;
@@ -174,18 +200,17 @@ addButtonSensor("#projects");
 addButtonSensor("#details");
 addButtonSensor("#words");
 addButtonSensor("#sites");
-addModalButtonSensor("#modal");
 
 populateCards(database);
 
 var resetButton = document.querySelector("#reset");
 resetButton.addEventListener('click', function() {
-  clearCardsContainer();
-  populateCards(database);
+  location.reload();
+  // clearCardsContainer();
+  // populateCards(database);
+  // addCardSensors();
 })
 
-
-const closeModalButtons = document.querySelectorAll('[data-close-button]');
 const overlay = document.getElementById('overlay');
 
 overlay.addEventListener('click', () => {
@@ -195,12 +220,20 @@ overlay.addEventListener('click', () => {
   })
 })
 
-closeModalButtons.forEach(button => {
-  button.addEventListener('click', () => {
-    //return outer div of main modal
-    const modal = button.closest('.modal');
-    closeModal(modal);
-  })
-})
+// closeModalButtons.forEach(button => {
+//   button.addEventListener('click', () => {
+//     console.log("close button event listener working");
+//     const modals = document.querySelectorAll('.modal.active');
+//     modals.forEach(modal => {
+//       closeModal(modal);
+//     })
+//   })
+// })
 
-addCardSensors();
+if (populateCardsIndex = 1) {
+  addCardSensors();
+}
+
+if (populateCardsIndex > 1) {
+  addCardSensorsPostSort();
+}

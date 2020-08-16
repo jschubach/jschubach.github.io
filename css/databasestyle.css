@@ -1,3 +1,5 @@
+
+
 @font-face {
   font-family: 'Karla';
   font-style: normal;
@@ -71,6 +73,7 @@
 /* *, *::after, *::before {
   box-sizing: border-box;
 } */
+
 
 .background {
   /* gray gray
@@ -269,6 +272,23 @@ p {
   justify-content: center;
 }
 
+.img-source-header {
+  font-family: "Karla", Segoe U1, san-sans-serif;
+  font-size: x-small;
+  margin-top: 1.5em;
+  margin-bottom:.2em;
+  font-weight: bold;
+}
+
+.img-source {
+  font-family: "Karla", Segoe U1, san-sans-serif;
+  font-size: x-small;
+  white-space: normal;
+  margin-top: .02em;
+  padding-top: .02em;
+  justify-content: center;
+}
+
 #cards-container{
   display: flex;
   align-items: stretch;
@@ -276,13 +296,9 @@ p {
   flex-flow: row wrap;
 }
 
-
 .card-tile {
   display: block;
   text-align: left;
-  /* width: 8vw; */
-  width: 12vw;
-  height: 55vh;
   padding: 1em;
   border: 4px;
   margin: .4em;
@@ -415,8 +431,8 @@ p {
 }
 
 .img-wrapper {
-  width: 8em;
-  height: 6em;
+  /* width: 8em;
+  height: 6em; */
   display: flex;
   justify-content: center;
   overflow: hidden;
@@ -441,8 +457,6 @@ p {
   /* //draw above other things */
   z-index: 10;
   background-color: white;
-  width: 30vw;
-  max-width: 80vw;
 }
 
 .modal.active {
@@ -533,12 +547,4 @@ h2 < .modal {
   padding: 5px;
 }
 
-/* .centered {
-  display: block;
-  margin: 1em;
-} */
-
-/* margin {
-  border-left-color: linear gradient(gold 10%, steelblue)
-  border-right-color: linear gradient(steelblue 10%, green)
 }
