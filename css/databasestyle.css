@@ -276,12 +276,13 @@ p {
   flex-flow: row wrap;
 }
 
+
 .card-tile {
-  display: inline-block;
+  display: block;
   text-align: left;
   /* width: 8vw; */
   width: 12vw;
-  height: 28vh;
+  height: 55vh;
   padding: 1em;
   border: 4px;
   margin: .4em;
@@ -290,6 +291,7 @@ p {
   text-overflow: ellipsis;
   transition: var(--transition-duration);
   transition-property: var(--transition-properties);
+  cursor: pointer;
 }
 
 /* .card-tile :last-child {

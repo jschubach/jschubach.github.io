@@ -12,6 +12,14 @@
 
   html {
     background-color: #add8d8;
+    width: 100%;
+    height: 100%;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .mobile-show {
@@ -36,7 +44,7 @@
   }
 
   .index-title {
-    font-size: 11vh;
+    font-size: 10.7vh;
     font-family: 'Freight';
     font-style: normal;
     font-weight: 400;
@@ -63,6 +71,10 @@
     padding-bottom: 3vw;
     padding-left: 5vw;
     padding-right: 5vw;
+  }
+
+  footer {
+    align-self: end;
   }
 }
 

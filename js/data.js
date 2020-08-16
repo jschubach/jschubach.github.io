@@ -8,10 +8,10 @@ database = [
       author: 'Aldo Rossi',
       context: 'Middle school constructed 1970',
       analysis: 'Placement of a special space at the center of a courtyard plan creates four clusters. Approach from a grove, step-up into a mysterious passage moving towards steps, emerge into an ampitheater with light entering from above and a wooden ceiling. Move out into the courtyard, into four corners of the single-loaded square plan.',
-      image: ['assets/database/broni-01.jpg']
+      image: ['assets/database/broni-01.jpg'],
       // image: [assets/database/cmu-01.jpg, assets/database/cmu-02.jpg],
       // compare: ["example 1", "example 2"]
-      // tags: ["Paradoxes", "Leveraged Flaws"]
+      tags: ["Paradoxes", "Leveraged Flaws"]
     },{
       datatype: 'spacetypes',
       name: 'Classroom',
@@ -20,7 +20,7 @@ database = [
       analysis: 'A material is removed',
       image: ['assets/database/classroom-kere-01.jpg', 'assets/database/roof-kere-01.jpg'],
       // compare: ["example 1", "example 2"]
-      // tags: ["Paradoxes", "Leveraged Flaws"]
+      tags: ["Paradoxes", "Leveraged Flaws"]
     },{
       datatype: 'atmospheres',
       name: 'Free-Period',

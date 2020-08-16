@@ -18,7 +18,7 @@
 </nav>
 
 <body>
-  <main>
+  <main id="page-area">
 
 <!-- buttons for sorting -->
   <section>
@@ -30,6 +30,7 @@
       <button id="words">WORDS</button>
       <button id="sites">SITES</button>
       <button id="reset">RESET</button>
+      <button id="modal">MODAL</button>
     </span>
   </section>
 
@@ -52,6 +53,41 @@
       </template>
     </div>
   </section>
+
+
+  <template>
+    <button data-modal-target="#modal-1">Open Modal</button>
+    <div class="modal" id="modal-1">
+      <div class="modal-header">
+        <div class="modal-header-box">
+          <h2>Title</h2>
+          <h3>Author</h3>
+        </div>
+
+        <div class="modal-header-box">
+        <button data-close-button class="close-button">&times;</button>
+        </div>
+      </div>
+
+      <h4>Context</h2>
+      <p>Sample Context<p>
+
+      <h4>Analysis</h4>
+      <p>Sample Analysis</p>
+
+      <div class="modal-img-grid">
+        <image src="assets/database/agadir-01.jpg" class="modal-img"></image>
+        <image src="assets/database/agadir-02.jpg" class="modal-img"></image>
+      </div>
+
+      <div class="tags-wrapper">
+        <span class="modal-tag">Tag 1</span>
+        <span class="modal-tag">Tag 2</span>
+      </div>
+    </div>
+  </template>
+
+  <div id="overlay"></div>
 
   </main>
   <script src="js/data.js"></script>
