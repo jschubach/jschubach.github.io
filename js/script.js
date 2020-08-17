@@ -31,12 +31,13 @@ function populateCards(data) {
     let cardclass = colorclass.concat(" card-tile");
 
     let cardTile = createAndAppend({ itemType: "div", className: cardclass, parent: container, text: undefined });
-    let cardName = createAndAppend({ itemType: "h2", className: undefined, parent: cardTile, text: entry.name });
-    let cardAuthor = createAndAppend({ itemType: "h3", className: undefined, parent: cardTile, text: entry.author });
-    let cardContextHeader = createAndAppend({ itemType: "h4", className: undefined, parent: cardTile, text: "Context" });
-    let cardContext = createAndAppend({ itemType: "p", className: undefined, parent: cardTile, text: entry.context });
-    let cardAnalysisHeader = createAndAppend({ itemType: "h4", className: undefined, parent: cardTile, text: "Analysis" });
-    let cardAnalysis = createAndAppend({ itemType: "p", className: undefined, parent: cardTile, text: entry.analysis });
+    let cardContent = createAndAppend({ itemType: "div", className: "content", parent: cardTile, text: undefined });
+    let cardName = createAndAppend({ itemType: "h2", className: undefined, parent: cardContent, text: entry.name });
+    let cardAuthor = createAndAppend({ itemType: "h3", className: undefined, parent: cardContent, text: entry.author });
+    let cardContextHeader = createAndAppend({ itemType: "h4", className: undefined, parent: cardContent, text: "Context" });
+    let cardContext = createAndAppend({ itemType: "p", className: undefined, parent: cardContent, text: entry.context });
+    let cardAnalysisHeader = createAndAppend({ itemType: "h4", className: undefined, parent: cardContent, text: "Analysis" });
+    let cardAnalysis = createAndAppend({ itemType: "p", className: undefined, parent: cardContent, text: entry.analysis });
     if (entry.thumbnail) {
       let wrapper = createAndAppend({ itemType: "div", className: "img-wrapper", parent: cardTile, text: undefined });
       let image = addImage({ src: entry.thumbnail[0], wrapper: wrapper, parent: cardTile, class: "img-grid" });

@@ -11,25 +11,20 @@
     max-height: 95vw;
   }
 
-  h2{
+  h2, h3, footer {
   font-family: 'Freight';
-  }
-
-  h3 {
- font-family: 'Freight';
   }
 
   button {
     padding: .4em;
   }
 
-
 }
 
 @media (min-width: 992px) and (max-width: 2100px) {
 
   .card-tile {
-    width: 12vw;
+    width: 9.5vw;
     height: 60vh;
   }
 
@@ -39,16 +34,20 @@
     max-height: 95vw;
   }
 
-  h2{
+  h2, h3, footer {
   font-family: 'Freight';
   }
 
-  h3 {
- font-family: 'Freight';
+  button {
+    padding: .3em;
+    padding-left: 2em;
+    padding-right: 2em;
+    font-size: x-small;
   }
 
-  button {
-    padding: .4em;
+  #cards-container{
+    margin-left: 5em;
+    margin-right: 5em;
   }
 }
 
@@ -65,21 +64,15 @@
     /* max-height: 95vw; */
   }
 
-  h2 {
-  font-family: 'Playfair Display';
-  }
-
-  h3 {
-  font-family: 'Playfair Display';
-  }
-
-  .img-source-header, h4 {
+  h2, h3, footer, .img-source-header, h4 {
   font-family: 'Playfair Display';
   }
 
   button {
-    margin: .4em;
+    margin: .3em;
     padding: .35em;
+    padding-left: 1em;
+    padding-right: 1em;
   }
 
   #reset {
@@ -99,6 +92,10 @@
     margin-top: 3.5em;
   }
 
+  #cards-container{
+    margin-left: 2em;
+    margin-right: 2em;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
