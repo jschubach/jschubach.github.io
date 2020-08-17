@@ -91,6 +91,7 @@
 body{
   margin: 0;
   padding-bottom: 5em;
+  margin-top: 5em;
 }
 
 nav {
@@ -104,7 +105,7 @@ nav {
   border-bottom: solid 1px var(--nav-border-color);
   text-align: center;
   position: fixed;
-  bottom: 0;
+  top: 0;
 }
 
 a {
@@ -114,13 +115,13 @@ a {
 .nav-container {
     display: flex;
     justify-content: space-around;
-    padding: 0.5% 0.25%;
-    border-bottom: solid 1px var(--nav-border-color);
+    padding: 0.05% 0.25%;
+    /* border-bottom: solid 1px var(--nav-border-color); */
 }
 
 .nav-title {
   position: relative;
-  display: inline;
+  display: inline-block;
   padding: .3em;
   justify-content: center;
   font-family: 'Freight';
@@ -129,10 +130,6 @@ a {
   font-weight: 400;
   text-decoration-line: underline;
   color: var(--navtext-color);
-}
-
-body{
-  margin-top: 5em;
 }
 
 h1 {
@@ -148,7 +145,6 @@ button {
   font-size: small;
   /* font-weight: bold; */
   /* margin: 1em; */
-  padding: .4em;
   /* border-radius: .25rem; */
   border: 0;
   margin: .1em;
@@ -280,11 +276,20 @@ p {
 
 .img-source {
   font-family: "Karla", Segoe U1, san-sans-serif;
-  font-size: x-small;
+  font-size: xx-small;
   white-space: normal;
-  margin-top: .02em;
-  padding-top: .02em;
+  /* margin-top: .02em;
+  padding-top: .02em; */
   justify-content: center;
+}
+
+.img-source-wrapper {
+  line-height: .6em;
+  margin: .3em;
+}
+
+p > .img-source {
+  line-height: 6em;
 }
 
 #cards-container{
@@ -439,9 +444,10 @@ p {
 
 .img-grid {
   width: 10em;
-  max-height: 5em;
+  max-height: 7em;
   object-fit: cover;
   align-self: end;
+  overflow: hidden;
 }
 
 .modal {
@@ -523,9 +529,9 @@ h2 < .modal {
 .modal-tag {
   flex: 1;
   text-align: center;
-  border: 1px solid black;
+  border: 1px solid;
   font-family:  "Karla", sans-serif;
-  font-size: small;
+  font-size: xx-small;
   padding: .4em;
   margin: .4em;
   text-transform: uppercase;

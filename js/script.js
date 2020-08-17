@@ -37,10 +37,16 @@ function populateCards(data) {
     let cardContext = createAndAppend({ itemType: "p", className: undefined, parent: cardTile, text: entry.context });
     let cardAnalysisHeader = createAndAppend({ itemType: "h4", className: undefined, parent: cardTile, text: "Analysis" });
     let cardAnalysis = createAndAppend({ itemType: "p", className: undefined, parent: cardTile, text: entry.analysis });
-    if (entry.image) {
+    if (entry.thumbnail) {
       let wrapper = createAndAppend({ itemType: "div", className: "img-wrapper", parent: cardTile, text: undefined });
-      let image = addImage({ src: entry.image[0], wrapper: wrapper, parent: cardTile, class: "img-grid" });
+      let image = addImage({ src: entry.thumbnail[0], wrapper: wrapper, parent: cardTile, class: "img-grid" });
       }
+    else {
+      if (entry.image) {
+        let wrapper = createAndAppend({ itemType: "div", className: "img-wrapper", parent: cardTile, text: undefined });
+        let image = addImage({ src: entry.image[0], wrapper: wrapper, parent: cardTile, class: "img-grid" });
+        }
+    }
 
     //if first time loading page, assign unique card Incides
     if (populateCardsIndex == 1) {
@@ -79,14 +85,18 @@ function renderModal(cardData) {
 
   if (cardData.image) {
     let imageGrid = createAndAppend({ itemType: "div", className: "modal-img-grid", parent: modalTile, text: undefined });
-    let image = addImage({src: cardData.image[0], wrapper: imageGrid, parent: modalTile, class: "modal-img"});
+    let images = cardData.image;
+    images.forEach(image => {
+      addImage({src: image, wrapper: imageGrid, parent: modalTile, class: "modal-img"});
+    })
   }
 
   if (cardData.sources) {
     let sources = cardData.sources;
-    let sourcesHeader = createAndAppend({ itemType: "span", className: "img-source-header", parent: modalTile, text: "Image Sources:  " });
+    let sourcesWrapper = createAndAppend({ itemType: "div", className: "img-source-wrapper", parent: modalTile, text: undefined });
+    let sourcesHeader = createAndAppend({ itemType: "span", className: "img-source-header", parent: sourcesWrapper, text: "Image Sources:  " });
     sources.forEach(source => {
-      createAndAppend({ itemType: "span", className: "img-source", parent: modalTile, text: source });
+      createAndAppend({ itemType: "span", className: "img-source", parent: sourcesWrapper, text: source });
     })
   }
 
