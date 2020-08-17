@@ -7,9 +7,9 @@ database = [
       name: 'Broni School',
       author: 'Aldo Rossi',
       context: 'Middle school constructed 1979',
-      analysis: 'Placement of a special space at the center of a courtyard plan creates four clusters. Approach from grove, step into a passage with steps, emerge into an ampitheater with light entering from above. Move across the courtyard and into corridors of the single-loaded square plan.',
-      thumbnail: ['assets/database/broni-01.jpg'],
-      image: ['assets/database/broni-03.jpg'],
+      analysis: 'Placement of a special space at the center of a courtyard plan creates four clusters. Approach from grove, step into a passage with steps, emerge into ampitheater with light from above. Move across court into the single-loaded square plan.',
+      thumbnail: ['assets/database/broni-thumb.jpg'],
+      image: ['assets/database/broni-01.jpg'],
       sources: ['https://www.domusweb.it/en/events/istanbul-design-biennial/gallery/2018/09/17/middle-school-in-broni-by-aldo-rossi-with-gianni-braghieri-1979-1982.html'],
       // compare: ["example 1", "example 2"]
       tags: ["Courtyard Buildings", "Sequences"]
@@ -43,7 +43,8 @@ database = [
       author: 'dePaor',
       context: 'A shiny and diaphanous material used to make an industrial barrier',
       analysis: 'Creasing it along the diagonal makes it glitter and generates opacity on the oblique',
-      image: ['assets/database/chainlink-01.jpg'],
+      thumbnail: ['assets/database/chainlink-01.jpg'],
+      image: ['assets/database/chainlink-02.jpg'],
       sources: ['https://www.depaor.com/projects/a13-fence.php'],
       tags: ["Rough but Elegant", "Ornamental Infrastructures"]
     },{
@@ -177,7 +178,7 @@ database = [
       author: 'Scogin Elam',
       context: 'Requirement from donor for a marble facade and display of columns showing the four orders',
       analysis: 'The response is the marble shakes which represent the idiosyncrasy of the individual within the collective and the framing of the columns like a page.',
-      image: ['assets/database/knowlton-01.jpg', 'assets/database/knowlton-02.jpg'],
+      image: ['assets/database/knowlton-01.jpg'],
       sources: ['https://www.archdaily.com/129400/austin-e-knowlton-school-of-architecture-mack-scogin-merrill-elam-architects?ad_medium=gallery (Timothy Hursley)'],
       // compare: ["example 1", "example 2"]
       tags: ["New Forms that Perform", "Foreigners"]
@@ -243,7 +244,7 @@ database = [
       author: 'OMA',
       context: 'The warping of the plan and the tilting of a core - irregular figures with a regular structural system. Compare to Kunsthal.',
       analysis: 'What effect does this regular/irregular juxtaposition create? Could the warping of the plan relate to the expansion and contraction of material at the scale of the detail?',
-      image: ['assets/database/omaam-01.jpg', 'assets/database/omaam-02.jpg', 'assets/database/omaam-03.jpg'],
+      image: ['assets/database/omaam-01.jpg', 'assets/database/omaam-03.jpg'],
       sources: ['SMLXL, Monacelli, (R. Koolhaas, B. Mau) p. 405-419'],
       // compare: ["example 1", "example 2"]
       tags: ["Figure", "Distortions"]
