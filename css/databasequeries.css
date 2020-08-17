@@ -65,7 +65,10 @@
   }
 
   h2, h3, footer, .img-source-header, h4 {
-  font-family: 'Playfair Display';
+    font-family: superclarendon, serif;
+    font-stretch: 180%
+    font-style: normal;
+    font-weight: 400;
   }
 
   button {
@@ -84,8 +87,7 @@
   }
 
   .nav-title {
-    font-family: 'Playfair Display';
-    font-size: small;
+    font-family: 'Playfair Display'
   }
 
   body{
