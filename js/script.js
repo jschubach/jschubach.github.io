@@ -57,7 +57,10 @@ function populateCards(data) {
 }
 
 function renderModal(cardData) {
+  let colorclass = cardData.datatype;
+
   let modalTile = createAndAppend({ itemType: "div", className: "modal", parent: page, text: undefined });
+  modalTile.classList.add(colorclass);
   let modalHeader = createAndAppend({ itemType: "div", className: "modal-header", parent: modalTile, text: undefined });
   let modalHeaderBox = createAndAppend({ itemType: "div", className: "modal-header-box", parent: modalHeader, text: undefined });
 

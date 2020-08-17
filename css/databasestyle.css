@@ -450,7 +450,7 @@ p {
   left: 50%;
   transform: translate(-50%, -50%) scale(0);
   transition: 100ms ease-in-out;
-  border: 2px solid var(--spacetypes-color);
+  border: 2px solid;
   padding: .5em;
   /* //draw above other things */
   z-index: 10;

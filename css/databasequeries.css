@@ -1,4 +1,4 @@
-@media (min-width: 800px) and (max-width: 1500px) {
+@media (min-width: 2100px) {
 
   .card-tile {
     width: 12vw;
@@ -20,7 +20,51 @@
 
 }
 
-@media (min-width: 0px) and (max-width: 800px) {
+@media (min-width: 992px) and (max-width: 2100px) {
+
+  .card-tile {
+    width: 12vw;
+    height: 55vh;
+  }
+
+  .modal {
+    width: 40vw;
+    max-width: 80vw;
+  }
+
+  h2{
+  font-family: 'Freight';
+  }
+
+  h3 {
+ font-family: 'Freight';
+  }
+
+}
+
+@media (min-width: 0px) and (max-width: 768px) {
+
+  .card-tile {
+    width: 70vw;
+    height: 40vh;
+  }
+
+  .modal {
+    width: 70vw;
+    max-width: 90vw;
+  }
+
+  h2 {
+  font-family: 'Playfair Display';
+  }
+
+  h3 {
+  Playfair Display
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
 
   .card-tile {
     width: 70vw;
