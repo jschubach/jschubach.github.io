@@ -1,0 +1,36 @@
+@media (min-width: 2100px) {
+
+  .index-wrapper {
+    grid-template-columns: 15vw 14vw 9vw 10vw 11vw 12vw;
+  }
+
+}
+
+@media (min-width: 992px) and (max-width: 2100px) {
+
+  .index-wrapper {
+    grid-template-columns: 17vw 18vw 11vw 11vw 14vw 15vw;
+  }
+
+  .index-title {
+    font-size: 5vw;
+  }
+
+}
+
+@media (min-width: 0px) and (max-width: 768px) {
+
+
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+
+  .index-wrapper {
+    display: grid;
+  }
+
+  .index-title {
+    font-size: 6.5vw;
+  }
+
+}
