@@ -18,16 +18,16 @@ database = [
       name: 'Classroom',
       author: 'Francis Kere',
       context: 'Projects deploy consistent architectural elements: Primary School & Extension in Gando, Secondary in Dano, Opera Village, and Lycee Schorge Secondary',
-      analysis: 'Undulation of the roof plane and removal of bricks as strategies for ventilation connote community',
+      analysis: 'The Kere projects are a delight to look at because (unlike in schools in the US) every single part of the architecture plays an important functional AND expressive role. The space between classrooms and the unification of the separate rooms under one roof adds another space for free, part breezeway, part room. Undulation of the roof plane and removal of bricks as strategies for ventilation connote community',
       image: ['assets/database/classroom-kere-01.jpg'],
       sources: ['http://www.arquitecturaviva.com/en/Info/News/Details/9376 (D. Schwartz/Gran Horizonte Medios)'],
       tags: ["Minimal Treatments", "Ornamental Infrastructures", "Incremental Costs"]
     },{
       datatype: 'atmospheres',
-      name: 'Free-Period',
+      name: 'Seasonality & Schedules',
       author: ' ',
-      context: 'Block of time with no class. For being alone, for leaving campus, for studying, or for mischief',
-      analysis: 'Space in the schedule that is unprogrammed and does not necessarily take place in the classroom',
+      context: 'Schools operate on a strict schedule of seasonal activation. A single day of school also operates on a strict schedule of class-times and passing periods.',
+      analysis: 'It is going to be necessary to consider the different states of spaces in the school schedule. How can this provide an engine of expression to the project? A building that can bloom throughout the season, with some spaces conditioned and others unconditioned',
     },{
       datatype: 'spacetypes',
       name: 'Modular Roof',
@@ -47,6 +47,12 @@ database = [
       image: ['assets/database/chainlink-02.jpg'],
       sources: ['https://www.depaor.com/projects/a13-fence.php'],
       tags: ["Rough but Elegant", "Ornamental Infrastructures"]
+    },{
+      datatype: 'atmospheres',
+      name: 'Free-Period',
+      author: ' ',
+      context: 'The one respite from the regimented schedule of school. Block of time with no class. For being alone, for leaving campus, for studying, or for mischief',
+      analysis: 'Is this the temporal corollary of Rems ideal of Freedom? Space in the schedule that is unprogrammed and does not necessarily take place in the classroom.',
     },{
       datatype: 'spacetypes',
       name: 'Totalizing Roof',
@@ -69,10 +75,10 @@ database = [
       tags: ["Surrealisms", "Distortions"]
     },{
       datatype: 'atmospheres',
-      name: 'Defects',
+      name: 'Defects (Real Diversity?)',
       author: ' ',
-      context: 'Diagram from Home Depot lumber information page',
-      analysis: 'Is it possible to begin with these "defective" materials (or tendencies towards different performance) in order to generate form?',
+      context: 'Is it possible to begin with these "defective" materials (or tendencies towards different performance) in order to generate form and tectonics? (An ethos that opposes standardized testing and the architectural compulsion to create identicality)',
+      analysis: 'Perhaps this would be a truer understanding of diversity than through a hodgepodge collection of sameness.',
       image: ['assets/database/defect-01.jpg'],
       sources: ['https://www.homedepot.com/c/ab/types-of-lumber/9ba683603be9fa5395fab90567851db'],
       tags: ["Paradoxes", "Leveraged Flaws"]
@@ -80,8 +86,32 @@ database = [
       datatype: 'spacetypes',
       name: 'Lunchroom',
       author: ' ',
-      context: 'Often used for multiple purposes, only one of which is lunch',
-      analysis: 'What gives specificity to the "multi-purpose room?"',
+      context: 'Often used for multiple purposes, only one of which is lunch. This space needs a long span, and often creates blank walls on the exterior of the school.',
+      analysis: 'What gives specificity to the "multi-purpose room?" How should this space relate to the rest of the program?',
+      // image: ['assets/database/image2.jpg']
+      // tags: ["Paradoxes", "Leveraged Flaws"]
+    },{
+      datatype: 'spacetypes',
+      name: 'Gym',
+      author: ' ',
+      context: ' ',
+      analysis: ' ',
+      // image: ['assets/database/image2.jpg']
+      // tags: ["Paradoxes", "Leveraged Flaws"]
+    },{
+      datatype: 'spacetypes',
+      name: 'Grounds/Sports Fields',
+      author: ' ',
+      context: ' ',
+      analysis: ' ',
+      // image: ['assets/database/image2.jpg']
+      // tags: ["Paradoxes", "Leveraged Flaws"]
+    },{
+      datatype: 'atmospheres',
+      name: 'Grids',
+      author: ' ',
+      context: 'Memories from a school: seeing a wavering figure in gym class against the grid of CMU',
+      analysis: ' ',
       // image: ['assets/database/image2.jpg']
       // tags: ["Paradoxes", "Leveraged Flaws"]
     },{
@@ -107,24 +137,97 @@ database = [
       name: 'Detention',
       author: ' ',
       context: 'Sitting silently in a classroom with the clock ticking, waiting',
-      analysis: 'Only things to look at are the desk, the ceiling, the window, the board',
+      analysis: 'Only things to look at are the desk, the ceiling, the window, the board. The classroom space is being used not to hold a group but an individual (a different state and function for the same space)',
       // tags: ["Paradoxes", "Leveraged Flaws"]
+    },{
+      datatype: 'sites',
+      name: 'A Note On Site',
+      author: '',
+      context: 'The selection of the site is going to determine the available source material to make form, quality, and identity with paradox: it will determine the specific functional problem I need to solve (for example, adding more classrooms quickly or how to make outdoor rooms, how to provide a beacon to a tough community, how to make a building also function as a community center) as well as the available symbols (towers in New England, water-towers in New York)',
+      analysis: 'Permitting variegation and difference in detailing goes along with permitting variegation and difference in types of spaces and conveying an ethos of non-conformity to students.',
+      // image: ['assets/database/scaffold-01.jpg', 'assets/database/scaffold-02.jpg', 'assets/database/scaffold-03.jpg'],
+      // compare: ["example 1", "example 2"]
+      tags: ["Paradoxes"]
+    },{
+      datatype: 'sites',
+      name: 'Brookline',
+      author: '',
+      context: 'Historic growth occuring in the PS Brookline system: the K-8 system has grown by 41% between 2006 and 2018. Strategies to deal with this have included "Expand-in-Place" (subdivision of existing classrooms, adding portable buildings) as well as studying potential sites for a new elementary school.',
+      analysis: 'Would the necessity of adding new classrooms to constricted site be a helpful engine for a project?',
+      // image: ['assets/database/scaffold-01.jpg', 'assets/database/scaffold-02.jpg', 'assets/database/scaffold-03.jpg'],
+      // compare: ["example 1", "example 2"]
+      // tags: ["Paradoxes"]
     },{
       datatype: 'projects',
       name: 'Instability',
       author: 'Frida Escobedo',
-      context: 'Insert Context here',
-      analysis: 'A material is removed',
+      context: 'An installation in a square that creates a platform for a shared experience of instability',
+      analysis: 'The paradox in the project is an unstable platform. The OSB surface is nicely subdivided with diamonds to appear faceted like its underside (the property which enables the instability)',
       thumbnail: ['assets/database/instability-01.png'],
       image: ['assets/database/instability-02.jpg'],
       sources: ['https://www.designboom.com/architecture/civic-stage-by-frida-escobedo-12-03-2013/', ' https://www.detailerssimon.com/frida-escobedo-un-recorrido-por-su-obra/'],
-      tags: ["Paradoxes", "Rough but Elegant"]
+      tags: ["Paradoxes", "Budget Glamour"]
+    },{
+      datatype: 'sites',
+      name: 'Allston',
+      author: '',
+      context: 'There are more vacancies in this district than students.',
+      analysis: 'Could this somehow be an engine for the project?',
+      // image: ['assets/database/scaffold-01.jpg', 'assets/database/scaffold-02.jpg', 'assets/database/scaffold-03.jpg'],
+      // compare: ["example 1", "example 2"]
+      // tags: ["Paradoxes"]
+    },{
+      datatype: 'words',
+      name: 'Instrument of Reflection',
+      author: 'Possible Concept',
+      context: 'We remember spaces from our youth as vast, we return to them and they are smaller than we remembered',
+      analysis: 'Is it possible that the project can allow students to "look back" at themselves, that the building can become an instrument for that kind of reflection and registration of growth and change?',
+      // tags: ["Paradoxes", "Rough but Elegant"]
+    },{
+      datatype: 'words',
+      name: 'What Does Good Mean?',
+      author: 'Standards',
+      context: 'Finally answering the question of why I like the things that I like',
+      analysis: 'Something good uses the challenges and opportunities provided to give form, quality, identity, and ingenuity to a project.',
+      tags: ["Paradoxes", "Layers Revealed"]
+    },{
+      datatype: 'words',
+      name: 'Criteria for a Project',
+      author: 'Standards',
+      context: 'Expansion on how to use the challenges and opportunities provided to give form, quality, identity, and ingenuity to a project',
+      analysis: 'INGREDIENTS: 1) a functional and/or programmatic ambition, 2) an urban ambition, 3) a sensibility that comes from the brief, 4) an inventive and appropriate tectonic, 5) a result that through architecture enlarges that the current space of possibilities (a disciplinary ambition)',
+      tags: ["Paradoxes", "Layers Revealed"]
+    },{
+      datatype: 'sites',
+      name: 'Watertown',
+      author: '',
+      context: 'Strip mall and big-box store heaven. The school district website has a generic start-up description of the school system.',
+      analysis: 'Would this provide the context of boredom in which wonder and strangeness can become an antidote to sameness and a culture of conformity?',
+      // image: ['assets/database/scaffold-01.jpg', 'assets/database/scaffold-02.jpg', 'assets/database/scaffold-03.jpg'],
+      // compare: ["example 1", "example 2"]
+      // tags: ["Paradoxes"]
+    },{
+      datatype: 'sites',
+      name: 'Jamaica Plain/West Roxbury',
+      author: '',
+      context: 'Sliced by railroad tracks, and in the midst of industrial buildings, these sites will provide the constraint that the building also serve as an inspiring community center and a beacon from afar.',
+      analysis: 'But does this kind of site get dicey in terms of gentrication?',
+      // image: ['assets/database/scaffold-01.jpg', 'assets/database/scaffold-02.jpg', 'assets/database/scaffold-03.jpg'],
+      // compare: ["example 1", "example 2"]
+      // tags: ["Paradoxes"]
+    },{
+      datatype: 'words',
+      name: 'Invention in Architecture',
+      author: 'Standards',
+      context: 'Form is a set of intertwined (usually physical) relations condensed into the most efficient whole.',
+      analysis: 'Invention in architecture is a form discovered through the pursuit of a (paradoxical) question and the earnest engagement with a cocktail of contextual factors. Out of this engagement with specificity comes something that speaks universally and enlarges our conception of what is possible',
+      // tags: ["Paradoxes", "Layers Revealed"]
     },{
       datatype: 'projects',
       name: 'Villa Alem',
       author: 'Valerio Olgiati',
-      context: 'Insert Context here',
-      analysis: 'A material is removed',
+      context: 'Private Home in Portugal with a large and vegetated courtyard',
+      analysis: 'How to make separate worlds spin off of a corridor? How to amplify the contrast between enclosed and open?',
       image: ['assets/database/alem-01.png', 'assets/database/alem-02.jpg', 'assets/database/alem-03.jpg', 'assets/database/alem-04.jpg'],
       sources: ['https://www.architectural-review.com/buildings/domus-conclusus-villa-alem-in-alentejo-portugal-by-valerio-olgiati (Archive Olgiati)'],
       // compare: ["example 1", "example 2"]
@@ -137,10 +240,33 @@ database = [
       analysis: 'Can the thesis play with the idea that to allow variable change within a system, the inevitable expansion and contraction, some things must be pinned while others can move freely?',
       tags: ["Paradoxes"]
     },{
+      datatype: 'sites',
+      name: 'Somerville',
+      author: '',
+      context: 'In its own words, both districts serve "a diverse and dynamic population of more than 5,000 students"',
+      analysis: 'Is this kind of diversity that would be a good engine for the project?',
+      // image: ['assets/database/scaffold-01.jpg', 'assets/database/scaffold-02.jpg', 'assets/database/scaffold-03.jpg'],
+      // compare: ["example 1", "example 2"]
+      // tags: ["Paradoxes"]
+    },{
+      datatype: 'words',
+      name: 'The Space Above the Ceiling',
+      author: 'Possible Concept',
+      context: 'Most classrooms have the banal ACT ceiling - a canvas for pens and pencils, spitballs, and gum supported by a ceiling grid.',
+      analysis: 'What is the back behind that surface like? What is it like to be behind the panels and inside the mystery of the grid?',
+      tags: ["Rescalings/Distortions", "Layers Revealed"]
+    },{
+      datatype: 'words',
+      name: 'Mundane & Strange',
+      author: 'Abstract from Spring',
+      context: 'Architecture is the medium that has the possibility to put the mundane and the strange into dialogue.',
+      analysis: 'How can architecture reintroduce recognizable strangeness into our lives? (Which today seem to be so numbingly normal or so strange that it becomes normal). There is such blinding "diversity" available on Instagram that no one can even see the differences anymore or the monoculture produced by the consumption of hollow visuals and targeted ads. There is so much strangeness to living inside a disaster that it becomes normalized and we become accustomed to checking the news only to see that the world is ending)',
+      // tags: ["Paradoxes", "Layers Revealed"]
+    },{
       datatype: 'projects',
       name: 'Paspels',
       author: 'Valerio Olgiati',
-      context: 'Insert Context here',
+      context: 'Primary School, 2001, Switzerland. How to give the hallway autonomy and make the corridor experiential?',
       analysis: 'Creates a monster out of the hallway, making it a space while giving each room its own view and each elevation its own proportions.',
       image: ['assets/database/paspels-01.jpg'],
       sources: ['http://aliceblogs.epfl.ch/years/y5_2015-16/studios/pdm/tag/5-work-in-progress (Clarisse Mauboussin)'],
@@ -150,7 +276,7 @@ database = [
       name: 'Fagnano Olona',
       author: 'Aldo Rossi',
       context: 'Primary school built in 1972.',
-      analysis: 'A material is removed',
+      analysis: 'How to merge the scale of the houses in the town and the scale of the factory buildings at the back? How to organize a sequence of experiences into a totality?',
       // additional: '"In the Fagnano Olona school a series of elements, which in other projects had been divided, reunited, and approached in linear terms by means of a street, a bridge, a wall... were organised around a central court. The resulting enclosed square became the basic form of the building. This square is composed of two levels connected by a wide flight of steps with the gymnasium above. As in the central section of the project for the Modena Cemetery a skeletal image emerges from the plan. I cannot make out how much this design will be apparent to a person inside the school itself but certainly all the main elements, including the conical chimney, can be seen from the enclosure at the center. I have always imagined this central space a red colour; it can be lined with either brick tiles or porphyry. Moreover, the walls of the courtyard will have the same large cross-mullioned windows that characterise the external facade." Aldo Rossi',
       thumbnail: ['assets/database/fagnano-thumb.jpg'],
       image: ['assets/database/fagnano-01.jpg'],
@@ -158,20 +284,47 @@ database = [
       // compare: ["example 1", "example 2"]
       tags: ["Courtyard Buildings", "Surrealisms"]
     },{
-      datatype: 'words',
-      name: 'Instrument of Reflection',
-      author: 'Possible Concept',
-      context: 'We remember spaces from our youth as vast, we return to them and they are smaller than we remembered',
-      analysis: 'Is it possible that the project can allow students to "look back" at themselves, that the building can become an instrument for that kind of reflection and registration of growth and change?',
-      // tags: ["Paradoxes", "Rough but Elegant"]
-    },{
       datatype: 'spacetypes',
       name: 'Corridor',
       author: ' ',
-      context: ' ',
-      analysis: ' ',
+      context: 'Usually this space is dark, filled with lockers, and changes drastically depending on whether it is filled by an individual in the hallway with a bathroom pass or a flood of students pushing past each other just before the bell rings or while classes are switching.',
+      analysis: 'Any school project must confront the corridor. How to give it light? How to make it structure experience instead of just provide a route from point A to point B? How are things sequenced along it? How does it differ in quality from the thing that extends off of it?',
       // image: [assets/database/cmu-01.jpg, assets/database/cmu-02.jpg],
       // tags: ["Paradoxes", "Leveraged Flaws"]
+    },{
+      datatype: 'spacetypes',
+      name: 'Breezeway',
+      author: ' ',
+      context: 'The covered exterior corridor. Used in schools in California and also in Washington State.',
+      analysis: 'Rossi skillfully uses the breezeway as a mystical passage from one space to the next.',
+      // image: [assets/database/cmu-01.jpg, assets/database/cmu-02.jpg],
+      // tags: ["Paradoxes", "Leveraged Flaws"]
+    },{
+      datatype: 'projects',
+      name: 'Lycee Scourge',
+      author: 'Francis Kere',
+      context: 'How to use the gaps in between to do something (in this case ventilate and give identity?) ',
+      analysis: 'How could this layering of conditioned and unconditioned spaces be made to happen in Boston? Is it possible to devise a strategy for adding many classrooms in Brookline that would add an extra space for free?',
+      image: ['assets/database/paspels-01.jpg'],
+      sources: ['http://aliceblogs.epfl.ch/years/y5_2015-16/studios/pdm/tag/5-work-in-progress (Clarisse Mauboussin)'],
+      tags: ["Distortions", "Corridor Projects"]
+    },{
+      datatype: 'spacetypes',
+      name: 'Ceiling',
+      author: ' ',
+      context: 'Commonly a cheap ceiling grid with hung acoustic tiles painted with pencil marks and spitballs.',
+      analysis: 'Francis Kere uses the ceiling to get ventilation and light into the space. Is there anything more that can be done functionally, architecturally, or experientially with the ceiling in the classroom that would work with the prosiac system of ACT instead of trying to replace it with a bespoke alternative?',
+      // image: [assets/database/cmu-01.jpg, assets/database/cmu-02.jpg],
+      // tags: ["Paradoxes", "Leveraged Flaws"]
+    },{
+      datatype: 'words',
+      name: 'On Physical Models',
+      author: 'Standards',
+      context: 'The physical model, which has trended towards serving as a representation of the hyper-real space of the project, furnished with fussy tectonics, this semester will triumph in the realm of abstraction.',
+      analysis: 'The goal during thesis is to use models as an abstract tool to test the quality of space and overall strength of the scheme (and asa decision making tool when faced when facing pixel-induced paralysis)',
+      image: ['assets/database/model-sample-01.jpg'],
+      sources: ['https://www.archdaily.com/894702/francis-kere-to-design-new-pine-log-pavilion-for-tippet-rise-art-center/5afdb8e1f197ccb203000111-francis-kere-to-design-new-pine-log-pavilion-for-tippet-rise-art-center-image?next_project=no'],
+      // compare: ["example 1", "example 2"]
     },{
       datatype: 'details',
       name: 'Knowlton SoA',
@@ -182,6 +335,13 @@ database = [
       sources: ['https://www.archdaily.com/129400/austin-e-knowlton-school-of-architecture-mack-scogin-merrill-elam-architects?ad_medium=gallery (Timothy Hursley)'],
       // compare: ["example 1", "example 2"]
       tags: ["New Forms that Perform", "Foreigners"]
+    },{
+      datatype: 'words',
+      name: 'Judgment',
+      author: 'Standards',
+      context: 'All projects need to be judged by their ability to translate their intentions and questions into form. See definition of form.',
+      analysis: 'The skill of architecture is not in the setting out of the narrative or the invention of a "new" concept, but in the skillful translation between media (model, drawing, structure, space, experience, publishing) of a set of original intentions. (Both translation and the improvisational skill of doing it live with what is available)',
+      // tags: ["Paradoxes", "Layers Revealed"]
     },{
       datatype: 'details',
       name: 'Concrete Block',
@@ -205,18 +365,26 @@ database = [
       datatype: 'spacetypes',
       name: 'Conditioning',
       author: ' ',
-      context: 'Do all parts of a building need to be artificially conditioned?',
-      analysis: 'Is it possible to make spaces that are unconditioned overall and conditioned at a smaller scale, with a more ad-hoc method of construction that helps preserve the optimum environment?',
+      context: 'Do all parts of a building need to be artificially conditioned? Projects by Kere and Lacaton and Vassal have made naturally ventilated buildings in France and Burkina Faso. Could this be made to work in Boston?',
+      analysis: 'Is it possible to make spaces that are unconditioned overall and conditioned at a smaller scale, with a more ad-hoc method of construction that helps preserve the optimum environment? Is there a analagous ethos to conditioned and unconditioned for the school in terms of spaces that are more regulated and other spaces that are freer?',
       // image: [assets/database/cmu-01.jpg, assets/database/cmu-02.jpg],
       // compare: ["example 1", "example 2"]
       tags: ["Space Requirements"]
     },{
       datatype: 'words',
+      name: 'Linear v. Swarm',
+      author: ' ',
+      context: 'When are projects designed with a sequential logical process, one question that spawns every other decision, versus with a swarming process that eventually knits together the elements that make sense without having worked through them in an entirely linear fashion?',
+      analysis: 'A single question probably needs to take priority, then the particular solutions and implementations of the answer to that question can swarm.',
+      // image: [assets/database/cmu-01.jpg, assets/database/cmu-02.jpg],
+      // tags: ["Paradoxes", "Leveraged Flaws"]
+    },{
+      datatype: 'words',
       name: 'Flexibility & Freedom',
       author: 'Rem Koolhaas',
       context: '"How to create specificity with indeterminancy...and a relatively stable aesthetic experience?"',
-      analysis: 'Explorations into other exegencies as catalysts to the the architectural expression begins with the expression of awkward structure in the Library in Paris and continues with ZKM and Milstein',
-      sources: ['SMLXL, Monacelli, (R. Koolhaas, B. Mau) p.921'],
+      analysis: '"Flexibility is not the exhaustive anticipation of all possible changes (most changes are unpredictable). Flexibility is the creation of margin - excess capacity that enables different and even opposite interpretations and uses." Explorations into other exegencies as catalysts to the the architectural expression begins with the expression of awkward structure in the Library in Paris and continues with ZKM and Milstein',
+      sources: ['SMLXL, Monacelli, (R. Koolhaas, B. Mau) p.921, p. 241'],
       // compare: ["example 1", "example 2"]
       // tags: ["Paradoxes", "Leveraged Flaws"]
     },{
@@ -258,6 +426,20 @@ database = [
       sources: ['SMLXL, Monacelli, (R. Koolhaas, B. Mau) p. 1220-1221'],
       // tags: ["Paradoxes", "Leveraged Flaws"]
     },{
+      datatype: 'words',
+      name: 'A Lot v. A Little (Field v. Figure)',
+      author: '',
+      context: 'From the materials research it has become clear that many of the examples I like are field projects. They make something remarkable by adding a lot of it.',
+      analysis: 'In the context of a project it becomes important to know which materials are already available for free in vast quantities (multiplication of extrinsic elements will add cost and be cut from the project). If you only have the money and material to make one of something, the best strategy will probably be to make it as distinctive as possible. The more sculptural you make something, the fewer instances of it you need for it to seem remarkable.',
+      // tags: ["Paradoxes", "Layers Revealed"]
+    },{
+      datatype: 'words',
+      name: 'Go v. Rem ',
+      author: '',
+      context: 'G. seems to hone in on the paradoxical quality of a thing and then to provide an efficient spatialization of it that uses that paradox to give it spatial quality',
+      analysis: 'R. has one big dumb idea he tells to the client, many small clever disciplinary ideas, and also seems to be adept at making the paradoxical condition of the project. He does something that in a singular instances would appear to be an awkward mistake, buthe does it enough to form the quality and field of opportunity in the project. His responses are the Baroque to Gs Classical)',
+      // tags: ["Paradoxes", "Layers Revealed"]
+    },{
       datatype: 'details',
       name: 'Scaffolding',
       author: '',
@@ -265,6 +447,14 @@ database = [
       analysis: 'Here the density and diagonal of the scaffold makes it unfamiliar (extra shoring provided to support the load atop it)',
       image: ['assets/database/scaffold-01.jpg', 'assets/database/scaffold-02.jpg', 'assets/database/scaffold-03.jpg'],
       tags: ["Paradoxes", "Rough but Elegant"]
+    },{
+      datatype: 'words',
+      name: 'Natural v. Effortful',
+      author: ' ',
+      context: 'OS2 project was deemed "swimming up stream." What are the details and projects that solve paradoxes without an effortful solution? The goal is to become facile at seeing what cannot change about a project/material/brief as quickly as possible.',
+      analysis: 'The faster it is detected and accepted, the more quickly it can be embraced as engine for the questions and qualities in the project. But it is important to also quickly be able to see what does not work as a solution (ie squashing portrait and horizontal images into a square grid)',
+      // image: ['assets/database/image2.jpg']
+      // tags: ["Paradoxes", "Leveraged Flaws"]
     }
   ]
 };
