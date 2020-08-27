@@ -14,6 +14,15 @@ database = [
       // compare: ["example 1", "example 2"]
       tags: ["Courtyard Buildings", "Sequences"]
     },{
+      datatype: 'sites',
+      name: 'A Note On Site',
+      author: '',
+      context: 'The selection of the site is going to determine the available source material to make form, quality, and identity with paradox: it will determine the specific functional problem I need to solve (for example, adding more classrooms quickly or how to make outdoor rooms, how to provide a beacon to a tough community, how to make a building also function as a community center) as well as the available symbols (towers in New England, water-towers in New York)',
+      analysis: 'Permitting variegation and difference in detailing goes along with permitting variegation and difference in types of spaces and conveying an ethos of non-conformity to students.',
+      // image: ['assets/database/scaffold-01.jpg', 'assets/database/scaffold-02.jpg', 'assets/database/scaffold-03.jpg'],
+      // compare: ["example 1", "example 2"]
+      tags: ["Paradoxes"]
+    },{
       datatype: 'spacetypes',
       name: 'Classroom',
       author: 'Francis Kere',
@@ -23,9 +32,63 @@ database = [
       sources: ['http://www.arquitecturaviva.com/en/Info/News/Details/9376 (D. Schwartz/Gran Horizonte Medios)'],
       tags: ["Minimal Treatments", "Ornamental Infrastructures", "Incremental Costs"]
     },{
-      datatype: 'atmospheres',
-      name: 'Seasonality & Schedules',
-      author: ' ',
+      datatype: 'sites',
+      name: 'Chinatown/Quincy Upper',
+      author: '',
+      context: 'Site purchased from church for Quincy Upper School',
+      analysis: 'Boredom of the highway, existing school on adjacent lot',
+      image: ['assets/database/site-chinatown-01.jpg'],
+      sources: ['https://www.wbur.org/edify/2019/05/21/build-bps-facilities-overhaul',' https://www.google.com/maps/place/249+Harrison+Ave,+Boston,+MA+02111/@42.3473725,-71.0640351,347m/data=!3m1!1e3!4m5!3m4!1s0x89e37a70c03e306f:0x6b0e993c396ea5e6!8m2!3d42.347282!4d-71.0632873'],
+      // tags: ["Minimal Treatments", "Ornamental Infrastructures", "Incremental Costs"]
+    },{
+      datatype: 'words',
+      name: 'A Place to Go After School?',
+      author: 'Problem',
+      context: 'Helpful for both parents and kids. In California these spaces can be outside, but in Boston climate requires something inside, but school budgets dictate that a fully conditioned space would likely be impractical.',
+      analysis: 'How can the school be zoned such that some parts can remain open and powered, minimally staffed and minimally conditioned, while other parts are closed?',
+      // image: ['assets/database/site-chinatown-01.jpg'],
+      // sources: ['https://www.google.com/maps/place/249+Harrison+Ave,+Boston,+MA+02111/@42.3473725,-71.0640351,347m/data=!3m1!1e3!4m5!3m4!1s0x89e37a70c03e306f:0x6b0e993c396ea5e6!8m2!3d42.347282!4d-71.0632873'],
+      // tags: ["Minimal Treatments", "Ornamental Infrastructures", "Incremental Costs"]
+    },{
+      datatype: 'sites',
+      name: 'East Boston',
+      author: '',
+      context: 'Site purchased for development of a new elementary school in East Boston',
+      analysis: 'Boredom of the highway, existing school on adjacent lot',
+      image: ['assets/database/site-eastboston-01.jpg'],
+      sources: ['https://eastietimes.com/2019/05/23/bps-to-reconfigure-schools-by-2021/'],
+      // tags: ["Minimal Treatments", "Ornamental Infrastructures", "Incremental Costs"]
+    },{
+      datatype: 'words',
+      name: 'Flexibility for the District',
+      author: 'Problem',
+      context: 'The BPS District is constantly shifting schools from one building to another. Some schools are closed and kids get bused to other disticts, other schools are switched from middle school to high school or elementary. The district is in the process of entirely dissolving middle schools (and adding them instead to middle and high schools).',
+      analysis: 'Because of this continual shifting in existing facilities, new schools cannot just be an investment in new whiteboards, atria, or reconfigurable spaces. These will soon be outdated (or be perceived as siphoning money away from struggling schools). New schools need to be an investment in good spaces that can serve as primary, middle, and HS classrooms.',
+      // image: ['assets/database/site-chinatown-01.jpg'],
+      // sources: ['https://www.google.com/maps/place/249+Harrison+Ave,+Boston,+MA+02111/@42.3473725,-71.0640351,347m/data=!3m1!1e3!4m5!3m4!1s0x89e37a70c03e306f:0x6b0e993c396ea5e6!8m2!3d42.347282!4d-71.0632873'],
+      // tags: ["Minimal Treatments", "Ornamental Infrastructures", "Incremental Costs"]
+    },{
+      datatype: 'words',
+      name: 'Access',
+      author: 'Problem',
+      context: '"One in four stakeholders (parents, students, staff) reported that they lack a library, an art room, or a science/computer lab. 1/2 of schools had staff and space for a library last year. Some schools are closed and kids get bused to other disticts, other schools are switched from middle school to high school or elementary. The district is in the process of dissolving middle schools (and adding a 6th grade to 17 different schools).',
+      analysis: 'Would it be possible to make these facilities accessible more widely to the distict? As a response to what the reports call "aging facilities", Marty Walsh promises $1B to BuildBPS. Construction of Dearborn STEM (exceptional "Architecture" with a $70M price tag), Renovation of Boston Arts Academy (without specific quality but with a $125M price tag) while Mattapan Elementary closes gives communities the impression that "the schools that are getting the money are not the schools that serve all the kids." Are there low cost strategies for improving the spaces or ways to network the improved spaces?',
+      // image: ['assets/database/site-chinatown-01.jpg'],
+      sources: ['https://www.wbur.org/edify/2017/01/18/walsh-promises-1-billion-buildbps', ' https://www.wbur.org/edify/2016/11/17/mattahunt-closure-bps-committee-vote', 'https://btu.org/media-watch/two-new-boston-school-buildings-on-the-horizon-as-17-schools-add-sixth-grade/'],
+      // tags: ["Minimal Treatments", "Ornamental Infrastructures", "Incremental Costs"]
+    },{
+      datatype: 'words',
+      name: 'Schools Within a School',
+      author: 'Problem',
+      context: 'The exploding elementary school population in the district, and the contracting middle school population, has resulted in initatives to dissolve middle schools into existing elementary and high schools.',
+      analysis: 'This might be a quality giving architectural problem - how to make that feel safe for the young kids, how to create different experiences in the school for kids as they age, how to make them see back at their past selves? How to create one building that can function as parts or as a whole? Then maybe one of these buidings can be used during the summer or after school when the other is not, or it is zoned to alleviate staffing and conditioning needs that would be impossible for the school to assume otherwise.',
+      // image: ['assets/database/site-chinatown-01.jpg'],
+      // sources: ['https://www.google.com/maps/place/249+Harrison+Ave,+Boston,+MA+02111/@42.3473725,-71.0640351,347m/data=!3m1!1e3!4m5!3m4!1s0x89e37a70c03e306f:0x6b0e993c396ea5e6!8m2!3d42.347282!4d-71.0632873'],
+      // tags: ["Minimal Treatments", "Ornamental Infrastructures", "Incremental Costs"]
+    },{
+      datatype: 'words',
+      name: 'Seasonality',
+      author: 'Problem',
       context: 'Schools operate on a strict schedule of seasonal activation. A single day of school also operates on a strict schedule of class-times and passing periods.',
       analysis: 'It is going to be necessary to consider the different states of spaces in the school schedule. How can this provide an engine of expression to the project? A building that can bloom throughout the season, with some spaces conditioned and others unconditioned',
     },{
@@ -133,6 +196,42 @@ database = [
       sources: ['https://www.researchgate.net/figure/Part-of-the-old-marble-facade-on-Finlandia-Hall-in-1999-Photo-by-Elmar-Tchegg_fig4_26524248)', ' http://hicarquitectura.com/2015/10/oriol-vano-cavaa-viaje-a-finlandia/'],
       tags: ["Paradoxes", "Leveraged Flaws", "Minimal Treatments"]
     },{
+      datatype: 'details',
+      name: 'Celebrated Reveals',
+      author: 'Herzog & de Meuron / FT Architects',
+      context: 'Exposing the composition of the interior',
+      analysis: 'How to reveal systems that are usually concealed and use them for expressive ends? For the Laban Center, the envelope makes the architecture behind one of the dancers behind a curtain of the facade. For the photo studio, the turning inside out of the building is suited to the brief of a photostudio',
+      image: ['assets/database/celebrated-reveals-02.jpg','assets/database/celebrated-reveals-01.jpg'],
+      sources: ['https://larryspeck.com/photography/laban-centre-for-contemporary-dance/', ' '],
+      tags: ["Minimal Treatments"]
+    },{
+      datatype: 'details',
+      name: 'Perfect Imperfection',
+      author: 'Alejandro Aravena',
+      context: 'Reuse that embraces the existing imperfection',
+      analysis: 'How to recast the existing into something new?',
+      image: ['assets/database/perfect-imperfect-01.jpg', 'assets/database/perfect-imperfect-02.jpg'],
+      sources: [''],
+      tags: ["Paradoxes", "Leveraged Flaws", "Minimal Treatments"]
+    },{
+      datatype: 'details',
+      name: 'Industry & Idiosyncrasy',
+      author: 'Manthey Kula',
+      context: 'How to use industrial processes to make something idiosyncratic?',
+      analysis: 'The production of an exception in this way requires fewer instances to pack punch',
+      image: ['assets/database/idio-industrial-01.jpg', 'assets/database/idio-detailing-01.jpg'],
+      sources: [''],
+      tags: ["Paradoxes", "Leveraged Flaws", "Minimal Treatments"]
+    },{
+      datatype: 'details',
+      name: 'Flexibilty and Expansion',
+      author: ' ',
+      context: 'The metaphor of the wooden water tower. When filled, the planks swell to contain the water, making cheap and untreated tank.',
+      analysis: 'How to create something that will peform better when it swells/serves its function over time?',
+      image: ['assets/database/changing-01.jpg'],
+      sources: [''],
+      tags: ["Paradoxes", "Leveraged Flaws", "Minimal Treatments"]
+    },{
       datatype: 'atmospheres',
       name: 'Detention',
       author: ' ',
@@ -141,20 +240,12 @@ database = [
       // tags: ["Paradoxes", "Leveraged Flaws"]
     },{
       datatype: 'sites',
-      name: 'A Note On Site',
-      author: '',
-      context: 'The selection of the site is going to determine the available source material to make form, quality, and identity with paradox: it will determine the specific functional problem I need to solve (for example, adding more classrooms quickly or how to make outdoor rooms, how to provide a beacon to a tough community, how to make a building also function as a community center) as well as the available symbols (towers in New England, water-towers in New York)',
-      analysis: 'Permitting variegation and difference in detailing goes along with permitting variegation and difference in types of spaces and conveying an ethos of non-conformity to students.',
-      // image: ['assets/database/scaffold-01.jpg', 'assets/database/scaffold-02.jpg', 'assets/database/scaffold-03.jpg'],
-      // compare: ["example 1", "example 2"]
-      tags: ["Paradoxes"]
-    },{
-      datatype: 'sites',
       name: 'Brookline',
       author: '',
-      context: 'Historic growth occuring in the PS Brookline system: the K-8 system has grown by 41% between 2006 and 2018. Strategies to deal with this have included "Expand-in-Place" (subdivision of existing classrooms, adding portable buildings) as well as studying potential sites for a new elementary school.',
+      context: 'Historic growth occuring in the PS Brookline system: the K-8 system has grown by 41% between 2006 and 2018. Strategies to deal with this have included "Expand-in-Place" (subdivision of existing classrooms, adding portable buildings) as well as studying potential sites for a new elementary school. "Since 2005, Brookline has experienced historic enrollment growth in its public schools. The K-8 elementary schools have grown by 41% going from 3,904 students in 2006 to 5,503 students in 2018, which is equivalent to adding three schools into our existing schools in just over 10 years. For a decade now, the Town and School Department has been addressing the expanding student population by studying potential sites for a new elementary school and by adding classrooms to existing schools by dividing classrooms; converting offices, locker rooms, and hallways into classrooms; renting private buildings; and building new classrooms or adding modular classes. Despite adding nearly 60 classrooms to our existing schools through this “Expand-in-Place” strategy, the schools continue to be severely overcrowded."',
       analysis: 'Would the necessity of adding new classrooms to constricted site be a helpful engine for a project?',
-      // image: ['assets/database/scaffold-01.jpg', 'assets/database/scaffold-02.jpg', 'assets/database/scaffold-03.jpg'],
+      sources: ['https://www.brookline.k12.ma.us/pierce-project'],
+      image: ['assets/database/sites-brookline-01.png', 'assets/database/sites-brookline-02.png'],
       // compare: ["example 1", "example 2"]
       // tags: ["Paradoxes"]
     },{
@@ -171,9 +262,9 @@ database = [
       datatype: 'sites',
       name: 'Allston',
       author: '',
-      context: 'There are more vacancies in this district than students.',
+      context: 'There are more vacancies in this district than students. Strip mall and big-box store heaven. The school district website has an impressively generic, start-up-like description of the school system. Could this provide the context of boredom in which wonder and strangeness can become an antidote to sameness and a culture of conformity?',
       analysis: 'Could this somehow be an engine for the project?',
-      // image: ['assets/database/scaffold-01.jpg', 'assets/database/scaffold-02.jpg', 'assets/database/scaffold-03.jpg'],
+      image: ['assets/database/sites-allston-01.png'],
       // compare: ["example 1", "example 2"]
       // tags: ["Paradoxes"]
     },{
@@ -184,43 +275,34 @@ database = [
       analysis: 'Is it possible that the project can allow students to "look back" at themselves, that the building can become an instrument for that kind of reflection and registration of growth and change?',
       // tags: ["Paradoxes", "Rough but Elegant"]
     },{
-      datatype: 'words',
-      name: 'What Does Good Mean?',
-      author: 'Standards',
+      datatype: 'standards',
+      name: 'Good or No Good?',
+      author: ' ',
       context: 'Finally answering the question of why I like the things that I like',
       analysis: 'Something good uses the challenges and opportunities provided to give form, quality, identity, and ingenuity to a project.',
       tags: ["Paradoxes", "Layers Revealed"]
     },{
-      datatype: 'words',
-      name: 'Criteria for a Project',
-      author: 'Standards',
+      datatype: 'standards',
+      name: 'Rubric',
+      author: ' ',
       context: 'Expansion on how to use the challenges and opportunities provided to give form, quality, identity, and ingenuity to a project',
       analysis: 'INGREDIENTS: 1) a functional and/or programmatic ambition, 2) an urban ambition, 3) a sensibility that comes from the brief, 4) an inventive and appropriate tectonic, 5) a result that through architecture enlarges that the current space of possibilities (a disciplinary ambition)',
       tags: ["Paradoxes", "Layers Revealed"]
-    },{
-      datatype: 'sites',
-      name: 'Watertown',
-      author: '',
-      context: 'Strip mall and big-box store heaven. The school district website has a generic start-up description of the school system.',
-      analysis: 'Would this provide the context of boredom in which wonder and strangeness can become an antidote to sameness and a culture of conformity?',
-      // image: ['assets/database/scaffold-01.jpg', 'assets/database/scaffold-02.jpg', 'assets/database/scaffold-03.jpg'],
-      // compare: ["example 1", "example 2"]
-      // tags: ["Paradoxes"]
     },{
       datatype: 'sites',
       name: 'Jamaica Plain/West Roxbury',
       author: '',
       context: 'Sliced by railroad tracks, and in the midst of industrial buildings, these sites will provide the constraint that the building also serve as an inspiring community center and a beacon from afar.',
       analysis: 'But does this kind of site get dicey in terms of gentrication?',
-      // image: ['assets/database/scaffold-01.jpg', 'assets/database/scaffold-02.jpg', 'assets/database/scaffold-03.jpg'],
+      image: ['assets/database/sites-jp-01.png', 'assets/database/sites-jp-02.png'],
       // compare: ["example 1", "example 2"]
       // tags: ["Paradoxes"]
     },{
-      datatype: 'words',
-      name: 'Invention in Architecture',
-      author: 'Standards',
-      context: 'Form is a set of intertwined (usually physical) relations condensed into the most efficient whole.',
-      analysis: 'Invention in architecture is a form discovered through the pursuit of a (paradoxical) question and the earnest engagement with a cocktail of contextual factors. Out of this engagement with specificity comes something that speaks universally and enlarges our conception of what is possible',
+      datatype: 'standards',
+      name: 'Invention',
+      author: ' ',
+      context: 'If form is a set of intertwined (usually physical) relations condensed into the most efficient whole...',
+      analysis: '...Invention in architecture is a form discovered through the pursuit of a (paradoxical) question and the earnest engagement with a cocktail of contextual factors. Out of this engagement with specificity comes something that speaks universally and enlarges our conception of what is possible',
       // tags: ["Paradoxes", "Layers Revealed"]
     },{
       datatype: 'projects',
@@ -240,21 +322,12 @@ database = [
       analysis: 'Can the thesis play with the idea that to allow variable change within a system, the inevitable expansion and contraction, some things must be pinned while others can move freely?',
       tags: ["Paradoxes"]
     },{
-      datatype: 'sites',
-      name: 'Somerville',
-      author: '',
-      context: 'In its own words, both districts serve "a diverse and dynamic population of more than 5,000 students"',
-      analysis: 'Is this kind of diversity that would be a good engine for the project?',
-      // image: ['assets/database/scaffold-01.jpg', 'assets/database/scaffold-02.jpg', 'assets/database/scaffold-03.jpg'],
-      // compare: ["example 1", "example 2"]
-      // tags: ["Paradoxes"]
-    },{
       datatype: 'words',
       name: 'The Space Above the Ceiling',
       author: 'Possible Concept',
       context: 'Most classrooms have the banal ACT ceiling - a canvas for pens and pencils, spitballs, and gum supported by a ceiling grid.',
       analysis: 'What is the back behind that surface like? What is it like to be behind the panels and inside the mystery of the grid?',
-      tags: ["Rescalings/Distortions", "Layers Revealed"]
+      tags: ["Rescalings/Distortions", "Celebrated Reveals"]
     },{
       datatype: 'words',
       name: 'Mundane & Strange',
@@ -305,9 +378,10 @@ database = [
       author: 'Francis Kere',
       context: 'How to use the gaps in between to do something (in this case ventilate and give identity?) ',
       analysis: 'How could this layering of conditioned and unconditioned spaces be made to happen in Boston? Is it possible to devise a strategy for adding many classrooms in Brookline that would add an extra space for free?',
-      image: ['assets/database/paspels-01.jpg'],
-      sources: ['http://aliceblogs.epfl.ch/years/y5_2015-16/studios/pdm/tag/5-work-in-progress (Clarisse Mauboussin)'],
-      tags: ["Distortions", "Corridor Projects"]
+      thumbnail: ['assets/database/kere-schourge-thumb.jpg'],
+      image: ['assets/database/kere-schourge-01.gif'],
+      sources: ['https://www.archdaily.com/885677/lycee-schorge-secondary-school-kere-architecture', 'http://www.kere-architecture.com/projects/lycee-schorge-secondary-school/'],
+      tags: ["Thrify Glamour", "Courtyard"]
     },{
       datatype: 'spacetypes',
       name: 'Ceiling',
@@ -317,12 +391,12 @@ database = [
       // image: [assets/database/cmu-01.jpg, assets/database/cmu-02.jpg],
       // tags: ["Paradoxes", "Leveraged Flaws"]
     },{
-      datatype: 'words',
-      name: 'On Physical Models',
-      author: 'Standards',
+      datatype: 'standards',
+      name: 'Physical Models',
+      author: ' ',
       context: 'The physical model, which has trended towards serving as a representation of the hyper-real space of the project, furnished with fussy tectonics, this semester will triumph in the realm of abstraction.',
       analysis: 'The goal during thesis is to use models as an abstract tool to test the quality of space and overall strength of the scheme (and asa decision making tool when faced when facing pixel-induced paralysis)',
-      image: ['assets/database/model-sample-01.jpg'],
+      image: ['assets/database/model-sample-01.jpg','assets/database/model-sample-02.jpg'],
       sources: ['https://www.archdaily.com/894702/francis-kere-to-design-new-pine-log-pavilion-for-tippet-rise-art-center/5afdb8e1f197ccb203000111-francis-kere-to-design-new-pine-log-pavilion-for-tippet-rise-art-center-image?next_project=no'],
       // compare: ["example 1", "example 2"]
     },{
@@ -336,9 +410,9 @@ database = [
       // compare: ["example 1", "example 2"]
       tags: ["New Forms that Perform", "Foreigners"]
     },{
-      datatype: 'words',
+      datatype: 'standards',
       name: 'Judgment',
-      author: 'Standards',
+      author: ' ',
       context: 'All projects need to be judged by their ability to translate their intentions and questions into form. See definition of form.',
       analysis: 'The skill of architecture is not in the setting out of the narrative or the invention of a "new" concept, but in the skillful translation between media (model, drawing, structure, space, experience, publishing) of a set of original intentions. (Both translation and the improvisational skill of doing it live with what is available)',
       // tags: ["Paradoxes", "Layers Revealed"]
@@ -346,12 +420,12 @@ database = [
       datatype: 'details',
       name: 'Concrete Block',
       author: 'Frida Escobedo',
-      context: 'Temporary installation in El Eco. CMU units could be removed by visitors for their own projects',
-      analysis: 'Cycles of building and destruction; the possibility for freedom within an authored structure. Blocks must be piled and laid on the diagonal in order to give a distinctive enough initial form before the anarchic process can take over',
+      context: 'Temporary installation in El Eco. CMU units could be removed by visitors for their own projects. Blocks must be piled and laid on the diagonal in order to give a distinctive enough initial form before the anarchic process can take over.',
+      analysis: 'How to make spaces with removal?',
       image: ['assets/database/cmu-01.jpg'],
       sources: ['https://fridaescobedo.com/project/pabellon-eco/ (Rafael Gamo)'],
       // compare: ["example 1", "example 2"]
-      tags: ["Rough but Elegant", "Minimal Treatment", "Field"]
+      tags: ["Thrify Glamour", "Celebrated Reveals", "Field"]
     },{
       datatype: 'words',
       name: 'Specification & Narrative',
@@ -371,7 +445,7 @@ database = [
       // compare: ["example 1", "example 2"]
       tags: ["Space Requirements"]
     },{
-      datatype: 'words',
+      datatype: 'standards',
       name: 'Linear v. Swarm',
       author: ' ',
       context: 'When are projects designed with a sequential logical process, one question that spawns every other decision, versus with a swarming process that eventually knits together the elements that make sense without having worked through them in an entirely linear fashion?',
@@ -426,14 +500,14 @@ database = [
       sources: ['SMLXL, Monacelli, (R. Koolhaas, B. Mau) p. 1220-1221'],
       // tags: ["Paradoxes", "Leveraged Flaws"]
     },{
-      datatype: 'words',
+      datatype: 'standards',
       name: 'A Lot v. A Little (Field v. Figure)',
       author: '',
       context: 'From the materials research it has become clear that many of the examples I like are field projects. They make something remarkable by adding a lot of it.',
       analysis: 'In the context of a project it becomes important to know which materials are already available for free in vast quantities (multiplication of extrinsic elements will add cost and be cut from the project). If you only have the money and material to make one of something, the best strategy will probably be to make it as distinctive as possible. The more sculptural you make something, the fewer instances of it you need for it to seem remarkable.',
       // tags: ["Paradoxes", "Layers Revealed"]
     },{
-      datatype: 'words',
+      datatype: 'standards',
       name: 'Go v. Rem ',
       author: '',
       context: 'G. seems to hone in on the paradoxical quality of a thing and then to provide an efficient spatialization of it that uses that paradox to give it spatial quality',
@@ -448,7 +522,7 @@ database = [
       image: ['assets/database/scaffold-01.jpg', 'assets/database/scaffold-02.jpg', 'assets/database/scaffold-03.jpg'],
       tags: ["Paradoxes", "Rough but Elegant"]
     },{
-      datatype: 'words',
+      datatype: 'standards',
       name: 'Natural v. Effortful',
       author: ' ',
       context: 'OS2 project was deemed "swimming up stream." What are the details and projects that solve paradoxes without an effortful solution? The goal is to become facile at seeing what cannot change about a project/material/brief as quickly as possible.',

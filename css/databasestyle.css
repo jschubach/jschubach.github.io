@@ -55,6 +55,7 @@
   --atmospheres-color: #cca26b;
   --words-color: black;
   --sites-color: #848588;
+  --standards-color: #0d144f;
 
   --background-color: #d5d4d4;
   /* index color #e3e8e8; */
@@ -223,7 +224,18 @@ button {
 
 #sites:hover {
   background-color: white;
-  color: var(--sites-color)
+  color: var(--sites-color);
+}
+
+#standards {
+  background-color: var(--standards-color);
+  color: white;
+  box-shadow: 0;
+}
+
+#standards:hover {
+  background-color: white;
+  color: var(--standards-color);
 }
 
 h2 {
@@ -381,6 +393,17 @@ p > .img-source {
 
 .projects.card-tile:hover {
   background-color: var(--projects-color);
+  color: white;
+}
+
+.standards.card-tile {
+  background-color: white;
+  color: var(--standards-color);
+  border: 3px solid var(--standards-color);
+}
+
+.standards.card-tile:hover {
+  background-color: var(--standards-color);
   color: white;
 }
 

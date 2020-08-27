@@ -95,7 +95,7 @@ function renderModal(cardData) {
   if (cardData.sources) {
     let sources = cardData.sources;
     let sourcesWrapper = createAndAppend({ itemType: "div", className: "img-source-wrapper", parent: modalTile, text: undefined });
-    let sourcesHeader = createAndAppend({ itemType: "span", className: "img-source-header", parent: sourcesWrapper, text: "Image Sources:  " });
+    let sourcesHeader = createAndAppend({ itemType: "span", className: "img-source-header", parent: sourcesWrapper, text: "Sources:  " });
     sources.forEach(source => {
       createAndAppend({ itemType: "span", className: "img-source", parent: sourcesWrapper, text: source });
     })
@@ -214,6 +214,7 @@ addButtonSensor("#projects");
 addButtonSensor("#details");
 addButtonSensor("#words");
 addButtonSensor("#sites");
+addButtonSensor("#standards");
 
 populateCards(database);
 
