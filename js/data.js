@@ -37,7 +37,7 @@ database = [
       author: '',
       context: 'Site purchased from church for Quincy Upper School',
       analysis: 'Boredom of the highway, existing school on adjacent lot',
-      image: ['assets/database/site-chinatown-01.jpg'],
+      image: ['assets/database/sites-chinatown-01.jpg'],
       sources: ['https://www.wbur.org/edify/2019/05/21/build-bps-facilities-overhaul',' https://www.google.com/maps/place/249+Harrison+Ave,+Boston,+MA+02111/@42.3473725,-71.0640351,347m/data=!3m1!1e3!4m5!3m4!1s0x89e37a70c03e306f:0x6b0e993c396ea5e6!8m2!3d42.347282!4d-71.0632873'],
       // tags: ["Minimal Treatments", "Ornamental Infrastructures", "Incremental Costs"]
     },{
@@ -55,7 +55,7 @@ database = [
       author: '',
       context: 'Site purchased for development of a new elementary school in East Boston',
       analysis: 'Boredom of the highway, existing school on adjacent lot',
-      image: ['assets/database/site-eastboston-01.jpg'],
+      image: ['assets/database/sites-eb-01.jpg'],
       sources: ['https://eastietimes.com/2019/05/23/bps-to-reconfigure-schools-by-2021/'],
       // tags: ["Minimal Treatments", "Ornamental Infrastructures", "Incremental Costs"]
     },{
