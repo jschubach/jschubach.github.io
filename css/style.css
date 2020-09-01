@@ -225,7 +225,7 @@ nav {
   color: var(--navtext-current-color);
 }
 
-.text-p {
+.text-h {
   font-family: 'Freight';
   font-size: xx-large;
   font-style: normal;
@@ -233,6 +233,27 @@ nav {
   color: var(--title-color);
   text-align: center;
   letter-spacing: .03em;
+}
+
+.text-p {
+  font-family: 'Freight';
+  font-size: large;
+  font-style: normal;
+  font-weight: 400;
+  color: var(--title-color);
+  text-align: center;
+  letter-spacing: .03em;
+}
+
+.text-q {
+  font-family: 'Freight';
+  font-size: medium;
+  font-style: normal;
+  font-weight: 400;
+  color: var(--title-color);
+  text-align: center;
+  letter-spacing: .03em;
+  padding: 1em;
 }
 
 .text-h1{
