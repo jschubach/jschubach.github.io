@@ -1,6 +1,7 @@
 initData();
 
 //populate container
+//CREATEANDAPPEND FUNCTION FORKED FROM RECITATION 7 OF MIT'S 6.082S DESIGN FOR WEB CLASS CLASS TAUGHT BY LEA VEROU & PROF. DAVID KARGER, TEACHING ASSISTANTS FARNAZ JAHANBAKHSH, LUKE MURRAY, JUMANA ALMAHMOUD
 function createAndAppend({itemType: itemType, className: className, parent: parent, text: text}) {
   let el = document.createElement(itemType);
   el.setAttribute("class", className);
@@ -111,6 +112,7 @@ function renderModal(cardData) {
   openModal(modalTile);
 }
 
+//OPENMODAL AND CLOSEMODAL FUNCTIONS FORKED FROM A youtube TUTORIAL ACCESSED via the youtube channel "Web Dev Simplified"
 function openModal(modal) {
   if (modal == null) return
   modal.classList.add('active');
@@ -226,6 +228,7 @@ resetButton.addEventListener('click', function() {
   // addCardSensors();
 })
 
+//OVERLAY CODE FORKED FROM A youtube TUTORIAL ACCESSED via the youtube channel "Web Dev Simplified"
 const overlay = document.getElementById('overlay');
 
 overlay.addEventListener('click', () => {
