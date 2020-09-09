@@ -560,6 +560,11 @@ h2 < .modal {
   padding: .4em;
   margin: .4em;
   text-transform: uppercase;
+  cursor: pointer;
+}
+
+.modal-tag:hover {
+  background-color: gray;
 }
 
 .modal-img-grid{
