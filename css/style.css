@@ -61,6 +61,26 @@
     text-align: center;
   }
 
+  .nav-container {
+      display: flex;
+      justify-content: space-around;
+      padding: 0.05% 0.25%;
+      /* border-bottom: solid 1px var(--nav-border-color); */
+  }
+
+  .nav-title {
+    position: relative;
+    display: inline-block;
+    padding: .3em;
+    justify-content: center;
+    font-family: 'Freight';
+    font-size: medium;
+    font-style: normal;
+    font-weight: 400;
+    text-decoration-line: underline;
+    color: var(--navtext-color);
+  }
+
   .side-nav-text-right, .side-nav-text-left {
     display: none;
   }
