@@ -1,12 +1,11 @@
 :root{
   --title-color: #182a6b;
   --background-color: #e1eeee;
-  --nav-color: #ffffff;
-  --nav-border-color: #848588;
-  --navtext-current-color: white;
 
-  --nav-color: #fafafa;
-  --nav-border-color: #b8b8b8;
+  --nav-color: #e1eeee;
+  --navtext-color: #182a6b;
+  --nav-border-color: #c7c8ca;
+  --navtext-current-color: white;
 }
 
 /* latin */
@@ -272,7 +271,7 @@
   letter-spacing: .03em;
 }
 
-.text-p {
+.text-p, .text-a {
   font-family: 'Freight';
   font-size: large;
   font-style: normal;
@@ -284,7 +283,7 @@
 
 .text-q {
   font-family: 'Freight';
-  font-size: medium;
+  font-size: small;
   font-style: normal;
   font-weight: 400;
   color: var(--title-color);
@@ -295,18 +294,29 @@
 
 .text-h1{
   font-family: 'Freight';
-  font-size: x-large;
+  font-size: medium;
   font-style: normal;
   font-weight: 400;
   color: var(--title-color);
   text-align: center;
   letter-spacing: .03em;
-  padding: 1em;
+  padding: .5em;
+  padding-top: 3em;
 }
 
 a {
   color: inherit;
+  padding: .3em;
+  display: inline;
+}
+
+.a-nav {
+  color: inherit;
   padding: 0;
+}
+
+a:hover, .a-nav:hover {
+  font-style: italic;
 }
 
 p {

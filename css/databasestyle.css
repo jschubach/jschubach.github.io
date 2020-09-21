@@ -99,6 +99,10 @@ a {
   color: inherit;
 }
 
+a:hover {
+  font-style: italic;
+}
+
 nav {
   background-color: var(--nav-color);
   /* border: solid 2px var(--nav-border-color); */
