@@ -1,9 +1,13 @@
 :root{
   --title-color: #182a6b;
+  /* blue background color */
   --background-color: #e1eeee;
 
-  --nav-color: #e1eeee;
-  --navtext-color: #182a6b;
+  /* gray background color
+  --background-color: #d5d4d4; */
+
+  --nav-color: #eff5f5;
+  --navtext-color: var(--title-color);
   --nav-border-color: #c7c8ca;
   --navtext-current-color: white;
 }
@@ -231,8 +235,8 @@
   .text-wrapper {
     justify-content: center;
     align-items: center;
-    padding-top: 3vw;
-    padding-bottom: 3vw;
+    padding-top: 1em;
+    padding-bottom: 1em;
     padding-left: 20vw;
     padding-right: 20vw;
   }
@@ -329,6 +333,16 @@ iframe {
   margin-left: 2em;
   margin-right: 2em;
   padding: 0;
+}
+
+.table {
+  display: block;
+  text-align: center;
+  margin-left: 2em;
+  margin-right: 2em;
+  padding: 5em;
+  padding-top: 5em;
+  border: none;
 }
 
 header, footer {
