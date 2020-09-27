@@ -58,14 +58,16 @@
   --standards-color: #0d144f;
 
 /* blue background color */
-  --background-color: #e2e9e9;
+  /* --background-color: #e2e9e9; */
 
-/* gray background color
-  --background-color: #d5d4d4; */
+/* gray background color */
+  --background-color: #d5d4d4;
   /* index color #e3e8e8; */
 
   --nav-color: #fafafa;
   --nav-border-color: #b8b8b8;
+  --navtext-color: var(--title-color);
+  --navtext-current-color: white;
 
   --transition-duration: .5s;
 	--transition-properties: transform, opacity, left, top, right, bottom, background;

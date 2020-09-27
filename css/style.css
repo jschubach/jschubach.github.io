@@ -1,15 +1,23 @@
 :root{
   --title-color: #182a6b;
   /* blue background color */
-  --background-color: #e1eeee;
+  /* --background-color: #e1eeee; */
 
-  /* gray background color
-  --background-color: #d5d4d4; */
+  /* gray background color */
+  --background-color: #d5d4d4;
 
-  --nav-color: #eff5f5;
+/* blue nav color
+  --nav-color: #eff5f5; */
+
   --navtext-color: var(--title-color);
-  --nav-border-color: #c7c8ca;
   --navtext-current-color: white;
+
+  --nav-color: #fafafa;
+  --nav-border-color: #b8b8b8;
+
+/* gray nav color
+  --nav-color: ##fafafa;
+  --nav-border-color: #c7c8ca; */
 }
 
 /* latin */
@@ -235,7 +243,7 @@
   .text-wrapper {
     justify-content: center;
     align-items: center;
-    padding-top: 1em;
+    padding-top: 3em;
     padding-bottom: 1em;
     padding-left: 20vw;
     padding-right: 20vw;
@@ -267,13 +275,17 @@
 
 .text-h {
   font-family: 'Freight';
-  font-size: xx-large;
+  font-size: x-large;
   font-style: normal;
   font-weight: 400;
   color: var(--title-color);
   text-align: center;
   letter-spacing: .03em;
 }
+
+/* .text-h:hover {
+  color: #f1e7e7;
+} */
 
 .text-p, .text-a {
   font-family: 'Freight';
@@ -321,6 +333,7 @@ a {
 
 a:hover, .a-nav:hover {
   font-style: italic;
+  color: white;
 }
 
 p {
