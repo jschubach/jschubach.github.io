@@ -345,7 +345,7 @@ iframe {
   text-align: center;
   margin-left: 2em;
   margin-right: 2em;
-  padding: 0;
+  padding-bottom: 2em;
 }
 
 .table {
