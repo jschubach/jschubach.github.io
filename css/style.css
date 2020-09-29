@@ -117,6 +117,7 @@
     justify-content: center;
   }
 
+
   .text-wrapper {
     justify-content: center;
     align-items: center;
@@ -245,6 +246,10 @@
     padding-left: 20vw;
     padding-right: 20vw;
   }
+
+  .text-page-wrapper {
+    margin-top: 4em;
+  }
 }
 
 /* nav {
@@ -323,14 +328,24 @@ a {
   display: inline;
 }
 
+a:hover {
+  font-style: italic;
+  /* color: white; */
+}
+
 .a-nav {
   color: inherit;
   padding: 0;
 }
 
-a:hover, .a-nav:hover {
+a.text-a:hover {
   font-style: italic;
-  color: white;
+  background-color: white;
+  color: var(--title-color);
+}
+
+.a-nav:hover {
+  font-style: italic;
 }
 
 p {
