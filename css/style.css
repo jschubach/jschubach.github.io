@@ -1,23 +1,20 @@
 :root{
   --title-color: #182a6b;
+
   /* blue background color */
 --background-color: #e2e9e9;
-
   /* gray background color */
   /* --background-color: #d5d4d4; */
-
-/* blue nav color */
-  --nav-color: #f1f1f1;
 
   --navtext-color: var(--title-color);
   --navtext-current-color: white;
 
-  --nav-color: #fafafa;
+  /* blue nav color */
+  --nav-color: #f1f1f1;
+  /* gray nav color */
+  /* --nav-color: #e8e7e7; */
   --nav-border-color: #b8b8b8;
 
-/* gray nav color
-  --nav-color: ##fafafa;
-  --nav-border-color: #c7c8ca; */
 }
 
 /* latin */
