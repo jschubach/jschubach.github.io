@@ -10,15 +10,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
-<nav>
-  <div class="nav-container">
-  <span class="nav-title"><a class="a-nav" href="index.html">Index</a></span>
-  <span class="nav-title"><a class="a-nav" href="database.html">Database</a></span>
-  <span class="nav-title"><a class="a-nav" href="desk.html">Desk</a></span>
-  <span class="nav-title"><a class="a-nav" href="slides.html">Slides</a></span>
-  <span class="nav-title"><a class="a-nav" href="project.html">Project</a></span>
-  <span class="nav-title"><a class="a-nav" href="text.html">Text</a></span>
-</div>
+<nav id="nav">
+  <template>
+    <div class="nav-container">
+      <span class="nav-title"><a class="a-nav" href="index.html">Index</a></span>
+    </div>
+  </template>
 </nav>
 
 <body>
@@ -103,6 +100,8 @@
   <div id="overlay"></div>
 
   </main>
+  <script src="js/navdata.js"></script>
+  <script src="js/navbar.js"></script>
   <script src="js/data.js"></script>
   <script src="js/script.js"></script>
 </body>

@@ -10,17 +10,14 @@
   </head>
 
   <body>
+    <main>
 
-    <!-- TODO APPEND THE NAV BAR TO THE PAGE SO IT HAPPENS DYNAMICALLY -->
-      <nav>
-        <div class="nav-container">
-          <span class="nav-title"><a class="a-nav" href="index.html">Index</a></span>
-          <span class="nav-title"><a class="a-nav" href="database.html">Database</a></span>
-          <span class="nav-title"><a class="a-nav" href="desk.html">Desk</a></span>
-          <span class="nav-title"><a class="a-nav" href="slides.html">Slides</a></span>
-          <span class="nav-title"><a class="a-nav" href="project.html">Project</a></span>
-          <span class="nav-title"><a class="a-nav" href="text.html">Text</a></span>
-        </div>
+      <nav id="nav">
+        <template>
+          <div class="nav-container">
+            <span class="nav-title"><a class="a-nav" href="index.html">Index</a></span>
+          </div>
+        </template>
       </nav>
 
       <div class="text-page-wrapper">
@@ -58,7 +55,9 @@
           <p class="text-h"> <a href="/about.html" class="text-a">About</a></p>
           </div>
         </div>
-
+      </main>
+    <script src="js/navdata.js"></script>
+    <script src="js/navbar.js"></script>
   </body>
 
 </html>

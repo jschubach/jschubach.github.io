@@ -41,6 +41,12 @@
     align-items: center;
   }
 
+  body {
+    margin-left: 0;
+    /* padding-bottom: 5em;
+    margin-top: 5em; */
+  }
+
   .mobile-show {
       display: flex;
       flex-direction: column;
@@ -147,6 +153,12 @@
 @media only screen and (min-width: 768px) {
   .mobile-show {
     display: none;
+  }
+
+  body {
+    margin-left: 0;
+    /* padding-bottom: 5em;
+    margin-top: 5em; */
   }
 
   .centered {
@@ -368,6 +380,8 @@ iframe {
   padding: 5em;
   padding-top: 5em;
   border: none;
+  width: 78%;
+  height: 60vh;
 }
 
 header, footer {
@@ -408,6 +422,12 @@ nav {
   text-align: center;
   position: fixed;
   top: 0;
+}
+
+body {
+  margin-left: 0;
+  /* padding-bottom: 5em;
+  margin-top: 5em; */
 }
 
 .nav-container {

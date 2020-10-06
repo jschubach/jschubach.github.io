@@ -125,4 +125,9 @@
   font-family: 'Playfair Display';
   }
 
+  body {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
 }
