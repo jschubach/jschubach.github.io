@@ -14,15 +14,6 @@ database = [
       // compare: ["example 1", "example 2"]
       tags: ["Courtyard Buildings", "Sequences"]
     },{
-      datatype: 'sites',
-      name: 'A Note On Site',
-      author: '',
-      context: 'The selection of the site is going to determine the available source material to make form, quality, and identity with paradox: it will determine the specific functional problem I need to solve (for example, adding more classrooms quickly or how to make outdoor rooms, how to provide a beacon to a tough community, how to make a building also function as a community center) as well as the available symbols (towers in New England, water-towers in New York)',
-      analysis: 'Permitting variegation and difference in detailing goes along with permitting variegation and difference in types of spaces and conveying an ethos of non-conformity to students.',
-      // image: ['assets/database/scaffold-01.jpg', 'assets/database/scaffold-02.jpg', 'assets/database/scaffold-03.jpg'],
-      // compare: ["example 1", "example 2"]
-      tags: ["Paradoxes"]
-    },{
       datatype: 'spacetypes',
       name: 'Classroom',
       author: 'Francis Kere',
@@ -31,6 +22,16 @@ database = [
       image: ['assets/database/classroom-kere-01.jpg'],
       sources: ['http://www.arquitecturaviva.com/en/Info/News/Details/9376 (D. Schwartz/Gran Horizonte Medios)'],
       tags: ["Minimal Treatments", "Ornamental Infrastructures", "Incremental Costs"]
+    },{
+      datatype: 'details',
+      name: 'Disremembered',
+      author: 'Doris Salcedo',
+      context: 'Knitted pins make a shimmering and delicate fabric, a sculpture that speaks about grief.',
+      analysis: 'Using pins to make a blouse entangles delicacy and violence, freedom and confinement. Beauty made from material rooted in tragedy. An effect generated opposite to the expected material effect; a object that we would expect to be undermined by its material compositionis actually reinforced by it.',
+      thumbnail: ['assets/database/salcedo-02.jpg'],
+      image: ['assets/database/salcedo-01.jpg'],
+      sources: ['https://www3.mcachicago.org/2015/salcedo/works/disremembered/ (Courtesy of Halle)'],
+      tags: ["Paradoxes", "Foreigners"]
     },{
       datatype: 'sites',
       name: 'Chinatown/Quincy Upper',
