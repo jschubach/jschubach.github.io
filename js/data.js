@@ -112,10 +112,10 @@ database = [
       tags: ["Rough but Elegant", "Ornamental Infrastructures"]
     },{
       datatype: 'atmospheres',
-      name: 'Free-Period',
+      name: 'Passing Period',
       author: ' ',
-      context: 'The one respite from the regimented schedule of school. Block of time with no class. For being alone, for leaving campus, for studying, or for mischief',
-      analysis: 'Is this the temporal corollary of Rems ideal of Freedom? Space in the schedule that is unprogrammed and does not necessarily take place in the classroom.',
+      context: 'Block of time and space BETWEEN classes. Rush of traffic, whole school collides in the hallway. Respite from the regimented ritual of the classroom.',
+      analysis: 'Is this the temporal corollary of the Rem ideal of Freedom? Space in the schedule that is unprogrammed and does not necessarily take place in the classroom?',
     },{
       datatype: 'spacetypes',
       name: 'Totalizing Roof',
