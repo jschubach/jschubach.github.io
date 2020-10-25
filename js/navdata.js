@@ -4,20 +4,17 @@ function initnav() {
       name: 'Index',
       href: 'index.html'
     },{
+      name: 'Research Archive',
+      href: 'archive.html'
+    },{
       name: 'Database',
       href: 'database.html'
     },{
-      name: 'Desk',
-      href: 'desk.html'
-    },{
-      name: 'Slides',
+      name: 'Presentation',
       href: 'slides.html'
     },{
-      name: 'Project',
-      href: 'project.html'
-    },{
-      name: 'Text',
-      href: 'text.html'
-    }
+      name: 'Pin-up Wall',
+      href: 'desk.html'
+    },
   ]
 }

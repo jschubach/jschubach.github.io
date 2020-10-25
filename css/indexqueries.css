@@ -1,7 +1,7 @@
 @media (min-width: 4100px) and (max-width: 2500px) {
 
   .index-wrapper {
-    grid-template-columns: 16vw 18.5vw 10vw 11vw 12.5vw 15vw;
+    grid-template-columns: 18vw 22vw 22vw 22vw;
     font-size: 5vw;
   }
 
@@ -10,7 +10,7 @@
 @media (min-width: 1024px) and (max-width: 2100px) {
 
   .index-wrapper {
-    grid-template-columns: 16vw 18.5vw 10vw 11vw 12.5vw 15vw;
+    grid-template-columns: 18vw 22vw 22vw 22vw;
   }
 
   .index-title {
