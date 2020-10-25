@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="background">
+<html class="white-background">
 <head>
   <meta charset="UTF-8"/>
   <title>Presentation</title>
@@ -13,6 +13,7 @@ console.log("secure");
 </script>
 
 <nav id="nav">
+  <!-- class="nav-hide" -->
   <template>
     <div class="nav-container">
       <span class="nav-title"><a class="a-nav" href="index.html">Index</a></span>
@@ -25,9 +26,9 @@ console.log("secure");
       <span class="page-wrapper">
         <!-- WEEKS 8/9 MIDTERM -->
         <div class="google-slides-container centered">
-          <iframe
-          src="https://docs.google.com/presentation/d/e/2PACX-1vSc4HHWErnhALYVHnaJbShwXNYDo_jlC3fRG1_P2p8aPGIzpJZ4h2a_DKXeZnvlhpXlkodeujWWvaz3/embed?start=false&loop=false&delayms=60000"
-          frameborder="0" width="1440" height="839" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">
+          <iframe id="midterm"
+          src="https://docs.google.com/presentation/d/e/2PACX-1vSc4HHWErnhALYVHnaJbShwXNYDo_jlC3fRG1_P2p8aPGIzpJZ4h2a_DKXeZnvlhpXlkodeujWWvaz3/embed?start=false&loop=false&delayms=60000&rm=minimal"
+          color="white" frameborder="0" width="1440" height="810" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">
           </iframe>
         </div>
       </span>
@@ -35,4 +36,5 @@ console.log("secure");
 
 <script src="js/navdata.js"></script>
 <script src="js/navbar.js"></script>
+<script> document.getElementsById("midterm")[0].contentWindow.document.body.focus(); </script>
 </html>
