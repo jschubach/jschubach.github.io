@@ -390,7 +390,7 @@ p {
 .google-slides-container {
     position: relative;
     width: 100%;
-    margin-top: 1em;
+    margin-top: 1.2em;
     padding-left: 1em;
     overflow: hidden;
     pointer-events: auto;
@@ -400,8 +400,8 @@ iframe .google-slides-container {
     position: absolute;
     top: 5em;
     left: 0;
-    width: 100%;
-    height: 100%;
+    width: 98%;
+    height: 98%;
 }
 
 iframe .table {
