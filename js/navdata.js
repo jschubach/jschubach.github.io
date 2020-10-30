@@ -1,7 +1,7 @@
 function initnav() {
   navlinks = [
     {
-      name: 'Index',
+      name: 'Home',
       href: 'index.html'
     },{
       name: 'Research Archive',
