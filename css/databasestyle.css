@@ -150,8 +150,8 @@ p, .filter-title {
   font-family:  "Karla", sans-serif;
   font-size: x-small;
   font-weight: normal;
-  color: black;
-  text-align: center;
+  /* color: black;
+  text-align: center; */
   margin: .2em;
 }
 
