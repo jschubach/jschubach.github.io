@@ -146,12 +146,12 @@ nav {
   color: var(--navtext-color);
 }
 
-.filter-title {
+p, .filter-title {
   font-family:  "Karla", sans-serif;
   font-size: x-small;
   font-weight: normal;
-  /* color: black;
-  text-align: center; */
+  color: black;
+  text-align: center;
   margin: .2em;
 }
 
@@ -319,7 +319,7 @@ p {
   white-space: normal;
   margin-top: .02em;
   padding-top: .02em;
-  /* justify-content: center; */
+  justify-content: center;
 }
 
 .img-source-header {
