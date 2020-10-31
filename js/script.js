@@ -139,30 +139,43 @@ function clearCardsContainer() {
     })
 }
 
-function addButtonSensor(buttonID) {
+function addButtonSensor(buttonID, selcriterion) {
   var button = document.querySelector(buttonID);
   let selector = button.id;
-  console.log(selector);
-  var confirmation = buttonID.concat(" sensor added");
-  console.log(confirmation);
+  // console.log(selector);
+  // var confirmation = buttonID.concat(" sensor added");
+  // console.log(confirmation);
 
   button.addEventListener('click', function() {
     //create new array for dta matching selector
     clearCardsContainer();
-    populateCards(sort(selector));
+    populateCards(sort(selector, selcriterion));
     addCardSensorsPostSort();
   })
 }
 
 //returns an array called selected
-function sort(selector) {
+function sort(selector, selcriterion) {
     let selected = [];
-    database.forEach(entry => {
-      let datatype = entry.datatype;
-      if (datatype === selector) {
-        selected.push(entry);
-      }
-    })
+    if (selcriterion == "datatype") {
+      database.forEach(entry => {
+        let datacriterion = entry.datatype;
+        if (datacriterion == selector) {
+          selected.push(entry);
+        }
+      })
+    }
+
+    else {
+      database.forEach(entry => {
+        var tags = entry.tags;
+        if (tags) {
+          if (tags.includes(selector)) {
+            selected.push(entry);
+          }
+        }
+      })
+    }
   return selected;
 }
 
@@ -219,14 +232,28 @@ let container = document.querySelector("#cards-container");
 let page = document.querySelector("#page-area");
 
 //TODO MAKE MORE CONCISE BY MAKING INPUT of addButtonSensor an array of buttonIDS?
-addButtonSensor("#spacetypes");
-addButtonSensor("#projects");
-addButtonSensor("#atmospheres");
-addButtonSensor("#projects");
-addButtonSensor("#details");
-addButtonSensor("#words");
-addButtonSensor("#sites");
-addButtonSensor("#standards");
+addButtonSensor("#spacetypes", "datatype");
+addButtonSensor("#projects", "datatype");
+addButtonSensor("#atmospheres", "datatype");
+addButtonSensor("#projects", "datatype");
+addButtonSensor("#details", "datatype");
+addButtonSensor("#words", "datatype");
+addButtonSensor("#sites", "datatype");
+addButtonSensor("#standards", "datatype");
+
+addButtonSensor("#paradoxes", "tags");
+addButtonSensor("#abstractions", "tags");
+addButtonSensor("#foreigners", "tags");
+addButtonSensor("#distortions", "tags");
+addButtonSensor("#novelties", "tags");
+addButtonSensor("#proliferations", "tags");
+
+addButtonSensor("#thrifty-glamour", "tags");
+addButtonSensor("#ornamental-infrastructures", "tags");
+addButtonSensor("#incremental-costs", "tags");
+addButtonSensor("#imperfections", "tags");
+addButtonSensor("#reveals", "tags");
+
 
 addResetButton("#resetcheap");
 addResetButton("#resetwonder");

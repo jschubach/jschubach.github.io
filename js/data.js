@@ -12,7 +12,7 @@ database = [
       image: ['assets/database/broni-01.jpg'],
       sources: ['https://www.domusweb.it/en/events/istanbul-design-biennial/gallery/2018/09/17/middle-school-in-broni-by-aldo-rossi-with-gianni-braghieri-1979-1982.html'],
       // compare: ["example 1", "example 2"]
-      tags: ["Courtyard Buildings", "Sequences"]
+      tags: ["paradoxes", "distortions"]
     },{
       datatype: 'spacetypes',
       name: 'Classroom',
@@ -21,7 +21,7 @@ database = [
       analysis: 'The Kere projects are a delight to look at because (unlike in schools in the US) every single part of the architecture plays an important functional AND expressive role. The space between classrooms and the unification of the separate rooms under one roof adds another space for free, part breezeway, part room. Undulation of the roof plane and removal of bricks as strategies for ventilation connote community',
       image: ['assets/database/classroom-kere-01.jpg'],
       sources: ['http://www.arquitecturaviva.com/en/Info/News/Details/9376 (D. Schwartz/Gran Horizonte Medios)'],
-      tags: ["Minimal Treatments", "Ornamental Infrastructures", "Incremental Costs"]
+      tags: ["ornamental-infrastructures"]
     },{
       datatype: 'details',
       name: 'Disremembered',
@@ -31,7 +31,7 @@ database = [
       thumbnail: ['assets/database/salcedo-02.jpg'],
       image: ['assets/database/salcedo-01.jpg'],
       sources: ['https://www3.mcachicago.org/2015/salcedo/works/disremembered/ (Courtesy of Halle)'],
-      tags: ["Paradoxes", "Foreigners"]
+      tags: ["paradoxes"]
     },{
       datatype: 'sites',
       name: 'Chinatown/Quincy Upper',
@@ -100,7 +100,7 @@ database = [
       analysis: 'Plastic expression of the roof makes space over voids. Only the roof, exonerated of walls, supported by only expanded columns, creates space in the project',
       image: ['assets/database/trenton-01.jpg'],
       sources: ['https://plans-sections-diagrams.tumblr.com/post/98150516209/louis-kahn-trenton-bath-house-1955'],
-      tags: ["Paradoxes", "Leveraged Flaws"]
+      tags: ["ornamental-infrastructures"]
     },{
       datatype: 'details',
       name: 'Chainlink Fence',
@@ -110,7 +110,7 @@ database = [
       thumbnail: ['assets/database/chainlink-01.jpg'],
       image: ['assets/database/chainlink-02.jpg'],
       sources: ['https://www.depaor.com/projects/a13-fence.php'],
-      tags: ["Rough but Elegant", "Ornamental Infrastructures"]
+      tags: ["thrifty-glamour"]
     },{
       datatype: 'atmospheres',
       name: 'Passing Period',
@@ -126,7 +126,7 @@ database = [
       thumbnail: ['assets/database/roof-kere-02.jpg'],
       image: ['assets/database/roof-kere-01.jpg'],
       sources: ['http://www.arquitecturaviva.com/en/Info/News/Details/9376 (D. Schwartz/Gran Horizonte Medios)'],
-      tags: ["Novel Forms that Perform", "Ornamental Infrastructures", "Rough but Elegant"]
+      tags: ["thrifty-glamour", "ornamental-infrastructures"]
     },{
       datatype: 'projects',
       name: 'Kunsthal II',
@@ -136,7 +136,7 @@ database = [
       thumbnail: ['assets/database/kunsthal-thumb.jpg'],
       image: ['assets/database/kunsthal-01.jpg'],
       sources: ['SMLXL, Monacelli, (R. Koolhaas, B. Mau) p. 431-473'],
-      tags: ["Surrealisms", "Distortions"]
+      tags: ["distortions"]
     },{
       datatype: 'atmospheres',
       name: 'Defects (Real Diversity?)',
@@ -145,7 +145,7 @@ database = [
       analysis: 'Perhaps this would be a truer understanding of diversity than through a hodgepodge collection of sameness.',
       image: ['assets/database/defect-01.jpg'],
       sources: ['https://www.homedepot.com/c/ab/types-of-lumber/9ba683603be9fa5395fab90567851db'],
-      tags: ["Paradoxes", "Leveraged Flaws"]
+      tags: ["paradoxes", "imperfections"]
     },{
       datatype: 'spacetypes',
       name: 'Lunchroom',
@@ -186,7 +186,7 @@ database = [
       analysis: 'Permitting variegation and difference in detailing goes along with permitting variegation and difference in types of spaces and conveying an ethos of non-conformity to students.',
       // image: ['assets/database/scaffold-01.jpg', 'assets/database/scaffold-02.jpg', 'assets/database/scaffold-03.jpg'],
       // compare: ["example 1", "example 2"]
-      tags: ["Paradoxes"]
+      tags: ["paradoxes", "reveals"]
     },{
       datatype: 'details',
       name: 'Warping',
@@ -195,7 +195,7 @@ database = [
       analysis: 'The defective cladding becomes more textured and beautiful than the original installation. Can slack in detailing be one possible way to create texture in American architecture (since cheap labor and craft are out of the question)?',
       image: ['assets/database/aalto-01.jpg', 'assets/database/aalto-02.png'],
       sources: ['https://www.researchgate.net/figure/Part-of-the-old-marble-facade-on-Finlandia-Hall-in-1999-Photo-by-Elmar-Tchegg_fig4_26524248)', ' http://hicarquitectura.com/2015/10/oriol-vano-cavaa-viaje-a-finlandia/'],
-      tags: ["Paradoxes", "Leveraged Flaws", "Minimal Treatments"]
+      tags: ["reveals", "paradoxes","imperfections"]
     },{
       datatype: 'details',
       name: 'Celebrated Reveals',
@@ -204,7 +204,7 @@ database = [
       analysis: 'How to reveal systems that are usually concealed and use them for expressive ends? For the Laban Center, the envelope makes the architecture behind one of the dancers behind a curtain of the facade. For the photo studio, the turning inside out of the building is suited to the brief of a photostudio',
       image: ['assets/database/celebrated-reveals-02.jpg','assets/database/celebrated-reveals-01.jpg'],
       sources: ['https://larryspeck.com/photography/laban-centre-for-contemporary-dance/', ' '],
-      tags: ["Minimal Treatments"]
+      tags: ["reveals"]
     },{
       datatype: 'details',
       name: 'Perfect Imperfection',
@@ -213,7 +213,7 @@ database = [
       analysis: 'How to recast the existing into something new?',
       image: ['assets/database/perfect-imperfect-01.jpg', 'assets/database/perfect-imperfect-02.jpg'],
       sources: [''],
-      tags: ["Paradoxes", "Leveraged Flaws", "Minimal Treatments"]
+      tags: ["imperfetions"]
     },{
       datatype: 'details',
       name: 'Industry & Idiosyncrasy',
@@ -222,7 +222,7 @@ database = [
       analysis: 'The production of an exception in this way requires fewer instances to pack punch',
       image: ['assets/database/idio-industrial-01.jpg', 'assets/database/idio-detailing-01.jpg'],
       sources: [''],
-      tags: ["Paradoxes", "Leveraged Flaws", "Minimal Treatments"]
+      tags: ["novelties", "thrifty-glamour"]
     },{
       datatype: 'details',
       name: 'Flexibilty and Expansion',
@@ -231,7 +231,7 @@ database = [
       analysis: 'How to create something that will peform better when it swells/serves its function over time?',
       image: ['assets/database/changing-01.jpg'],
       sources: [''],
-      tags: ["Paradoxes", "Leveraged Flaws", "Minimal Treatments"]
+      tags: ["paradoxes"]
     },{
       datatype: 'atmospheres',
       name: 'Detention',
@@ -258,7 +258,7 @@ database = [
       thumbnail: ['assets/database/instability-01.png'],
       image: ['assets/database/instability-02.jpg'],
       sources: ['https://www.designboom.com/architecture/civic-stage-by-frida-escobedo-12-03-2013/', ' https://www.detailerssimon.com/frida-escobedo-un-recorrido-por-su-obra/'],
-      tags: ["Paradoxes", "Budget Glamour"]
+      tags: ["thrifty-glamour", "paradoxes"]
     },{
       datatype: 'sites',
       name: 'Allston',
@@ -314,21 +314,21 @@ database = [
       image: ['assets/database/alem-01.png', 'assets/database/alem-02.jpg', 'assets/database/alem-03.jpg', 'assets/database/alem-04.jpg'],
       sources: ['https://www.architectural-review.com/buildings/domus-conclusus-villa-alem-in-alentejo-portugal-by-valerio-olgiati (Archive Olgiati)'],
       // compare: ["example 1", "example 2"]
-      tags: ["Corridor Projects", "Courtyard Buildings"]
+      tags: ["distortions"]
     },{
       datatype: 'words',
       name: 'Pinned to Allow for Change',
       author: 'Possible Concept',
       context: 'The marble cladding on Finlandia hall contracts and expands because it is pinned only at two ends. Rem Koolhaas deploys a similar physical method in the plan for Melun-Senart, where development is pinned at the ends of the forest to protect the pristine tract of land onto which OMA is contracted to plan future development (a defensive move).',
       analysis: 'Can the thesis play with the idea that to allow variable change within a system, the inevitable expansion and contraction, some things must be pinned while others can move freely?',
-      tags: ["Paradoxes"]
+      tags: ["paradoxes"]
     },{
       datatype: 'words',
       name: 'The Space Above the Ceiling',
       author: 'Possible Concept',
       context: 'Most classrooms have the banal ACT ceiling - a canvas for pens and pencils, spitballs, and gum supported by a ceiling grid.',
       analysis: 'What is the back behind that surface like? What is it like to be behind the panels and inside the mystery of the grid?',
-      tags: ["Rescalings/Distortions", "Celebrated Reveals"]
+      tags: ["distortions", "reveals"]
     },{
       datatype: 'words',
       name: 'Mundane & Strange',
@@ -344,7 +344,7 @@ database = [
       analysis: 'Creates a monster out of the hallway, making it a space while giving each room its own view and each elevation its own proportions.',
       image: ['assets/database/paspels-01.jpg'],
       sources: ['http://aliceblogs.epfl.ch/years/y5_2015-16/studios/pdm/tag/5-work-in-progress (Clarisse Mauboussin)'],
-      tags: ["Distortions", "Corridor Projects"]
+      tags: ["distortions"]
     },{
       datatype: 'projects',
       name: 'Fagnano Olona',
@@ -356,7 +356,7 @@ database = [
       image: ['assets/database/fagnano-01.jpg'],
       sources: ['https://en.wikiarquitectura.com/building/fagnano-olona-elementary-school/'],
       // compare: ["example 1", "example 2"]
-      tags: ["Courtyard Buildings", "Surrealisms"]
+      tags: ["foreigners"]
     },{
       datatype: 'spacetypes',
       name: 'Corridor',
@@ -382,7 +382,7 @@ database = [
       thumbnail: ['assets/database/kere-schourge-thumb.jpg'],
       image: ['assets/database/kere-schourge-01.gif'],
       sources: ['https://www.archdaily.com/885677/lycee-schorge-secondary-school-kere-architecture', 'http://www.kere-architecture.com/projects/lycee-schorge-secondary-school/'],
-      tags: ["Thrify Glamour", "Courtyard"]
+      tags: ["thrifty-glamour", "ornamental-infrastructures"]
     },{
       datatype: 'spacetypes',
       name: 'Ceiling',
@@ -409,7 +409,7 @@ database = [
       image: ['assets/database/knowlton-01.jpg'],
       sources: ['https://www.archdaily.com/129400/austin-e-knowlton-school-of-architecture-mack-scogin-merrill-elam-architects?ad_medium=gallery (Timothy Hursley)'],
       // compare: ["example 1", "example 2"]
-      tags: ["New Forms that Perform", "Foreigners"]
+      tags: ["novelties", "reveals"]
     },{
       datatype: 'standards',
       name: 'Judgment',
@@ -426,7 +426,7 @@ database = [
       image: ['assets/database/cmu-01.jpg'],
       sources: ['https://fridaescobedo.com/project/pabellon-eco/ (Rafael Gamo)'],
       // compare: ["example 1", "example 2"]
-      tags: ["Thrify Glamour", "Celebrated Reveals", "Field"]
+      tags: ["thrifty-glamour","reveals"]
     },{
       datatype: 'words',
       name: 'Specification & Narrative',
@@ -444,7 +444,6 @@ database = [
       analysis: 'Is it possible to make spaces that are unconditioned overall and conditioned at a smaller scale, with a more ad-hoc method of construction that helps preserve the optimum environment? Is there a analagous ethos to conditioned and unconditioned for the school in terms of spaces that are more regulated and other spaces that are freer?',
       // image: [assets/database/cmu-01.jpg, assets/database/cmu-02.jpg],
       // compare: ["example 1", "example 2"]
-      tags: ["Space Requirements"]
     },{
       datatype: 'standards',
       name: 'Linear v. Swarm',
@@ -480,7 +479,7 @@ database = [
       image: ['assets/database/agadir-01.jpg', 'assets/database/agadir-02.jpg'],
       // compare: ["example 1", "example 2"]
       sources: ['SMLXL, Monacelli, (R. Koolhaas, B. Mau) p. 379-393'],
-      tags: ["Field", "Novel Forms that Perform"]
+      tags: ["novelties"]
     },{
       datatype: 'projects',
       name: 'Architecture Museum',
@@ -490,7 +489,7 @@ database = [
       image: ['assets/database/omaam-01.jpg', 'assets/database/omaam-03.jpg'],
       sources: ['SMLXL, Monacelli, (R. Koolhaas, B. Mau) p. 405-419'],
       // compare: ["example 1", "example 2"]
-      tags: ["Figure", "Distortions"]
+      tags: ["distortions"]
     },{
       datatype: 'projects',
       name: 'Cyclicality in Yokohama',
@@ -521,7 +520,7 @@ database = [
       context: 'Typically temporary, but could it be made to look like the Doris Saulcedos "Disremembered"?',
       analysis: 'Here the density and diagonal of the scaffold makes it unfamiliar (extra shoring provided to support the load atop it)',
       image: ['assets/database/scaffold-01.jpg', 'assets/database/scaffold-02.jpg', 'assets/database/scaffold-03.jpg'],
-      tags: ["Paradoxes", "Rough but Elegant"]
+      tags: ["thrifty-glamour", "paradoxes"]
     },{
       datatype: 'standards',
       name: 'Natural v. Effortful',
