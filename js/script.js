@@ -204,6 +204,16 @@ function loadModal(index, array) {
   console.log("inside loadModal function");
 }
 
+function addResetButton(resetbuttonid) {
+  var resetButton = document.querySelector(resetbuttonid);
+  resetButton.addEventListener('click', function() {
+    location.reload();
+    // clearCardsContainer();
+    // populateCards(database);
+    // addCardSensors();
+  })
+}
+
 var populateCardsIndex = 0;
 let container = document.querySelector("#cards-container");
 let page = document.querySelector("#page-area");
@@ -218,15 +228,13 @@ addButtonSensor("#words");
 addButtonSensor("#sites");
 addButtonSensor("#standards");
 
+addResetButton("#resetcheap");
+addResetButton("#resetwonder");
+addResetButton("#resetdatatype");
+
+
 populateCards(database);
 
-var resetButton = document.querySelector("#reset");
-resetButton.addEventListener('click', function() {
-  location.reload();
-  // clearCardsContainer();
-  // populateCards(database);
-  // addCardSensors();
-})
 
 //OVERLAY CODE FORKED FROM A youtube TUTORIAL ACCESSED via the youtube channel "Web Dev Simplified"
 const overlay = document.getElementById('overlay');
