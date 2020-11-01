@@ -1,4 +1,5 @@
 initData();
+initButtons();
 
 //populate container
 //CREATEANDAPPEND FUNCTION FORKED FROM RECITATION 7 OF MIT'S 6.082S DESIGN FOR WEB CLASS CLASS TAUGHT BY LEA VEROU & PROF. DAVID KARGER, TEACHING ASSISTANTS FARNAZ JAHANBAKHSH, LUKE MURRAY, JUMANA ALMAHMOUD
@@ -189,7 +190,7 @@ function addCardSensors() {
       if (card.dataset.index) {
         let indexString = card.dataset.index;
         var index = (parseInt(indexString, 10) - 1);
-        console.log("index added");
+        // console.log("index added");
       }
 
       loadModal(index, database);
@@ -201,9 +202,9 @@ function addCardSensorsPostSort() {
     var cards = document.querySelectorAll(".card-tile");
     cards.forEach(card => {
       var cardname = card.querySelector("h2").textContent;
-      console.log(cardname);
+      // console.log(cardname);
       var sortedIndex = database.findIndex(x => x.name === cardname);
-      console.log(sortedIndex);
+      // console.log(sortedIndex);
 
       card.addEventListener('click', function (event) {
         loadModal(sortedIndex, database);
@@ -227,34 +228,17 @@ function addResetButton(resetbuttonid) {
   })
 }
 
+function addButtons(buttonlist) {
+  buttonlist.forEach(filterbutton => {
+    addButtonSensor(filterbutton.buttonID, filterbutton.selcriterion);
+  });
+}
+
 var populateCardsIndex = 0;
 let container = document.querySelector("#cards-container");
 let page = document.querySelector("#page-area");
 
-//TODO MAKE MORE CONCISE BY MAKING INPUT of addButtonSensor an array of buttonIDS?
-addButtonSensor("#spacetypes", "datatype");
-addButtonSensor("#projects", "datatype");
-addButtonSensor("#atmospheres", "datatype");
-addButtonSensor("#projects", "datatype");
-addButtonSensor("#details", "datatype");
-addButtonSensor("#words", "datatype");
-addButtonSensor("#sites", "datatype");
-addButtonSensor("#standards", "datatype");
-
-addButtonSensor("#paradoxes", "tags");
-addButtonSensor("#abstractions", "tags");
-addButtonSensor("#foreigners", "tags");
-addButtonSensor("#distortions", "tags");
-addButtonSensor("#novelties", "tags");
-addButtonSensor("#proliferations", "tags");
-
-addButtonSensor("#thrifty-glamour", "tags");
-addButtonSensor("#ornamental-infrastructures", "tags");
-addButtonSensor("#incremental-costs", "tags");
-addButtonSensor("#imperfections", "tags");
-addButtonSensor("#reveals", "tags");
-
-
+addButtons(buttonlist);
 addResetButton("#resetcheap");
 addResetButton("#resetwonder");
 addResetButton("#resetdatatype");
