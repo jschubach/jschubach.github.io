@@ -33,6 +33,16 @@ database = [
       sources: ['https://www3.mcachicago.org/2015/salcedo/works/disremembered/ (Courtesy of Halle)'],
       tags: ["paradoxes"]
     },{
+      datatype: 'words',
+      name: 'Safety & Security',
+      author: 'Problem',
+      context: 'The unfortunate legacy of the 1999 events at Columbine High School have left schools in a difficult position. How to keep kids safe from gun violence but also create a school that is not a fortress? COVID has further complicted this - how to keep doors open to ventilate spaces but also be ready to close them at any moment for a lock down? Lock-down drills are typical in the rhythm of the American high school routine. During these drils, teachers lock all the doors, draw shades over all the windows, and students take cover underneath school desks.',
+      analysis: 'How can the school be open to the city but also protected from intruders? How can classrooms create open communities that can also easily be sealed off in the event of a lock-down? How can the plan be zoned such that compartments of safety are created in the school?',
+      // thumbnail: ['assets/database/salcedo-02.jpg'],
+      // image: ['assets/database/salcedo-01.jpg'],
+      // sources: ['https://www3.mcachicago.org/2015/salcedo/works/disremembered/ (Courtesy of Halle)'],
+      tags: ["paradoxes"]
+    },{
       datatype: 'sites',
       name: 'Chinatown/Quincy Upper',
       author: '',
