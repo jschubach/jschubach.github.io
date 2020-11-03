@@ -26,7 +26,7 @@ database = [
       datatype: 'details',
       name: 'Disremembered',
       author: 'Doris Salcedo',
-      context: 'Knitted pins make a shimmering and delicate fabric, a sculpture that speaks about grief.',
+      context: 'Knitted pins make a delicate fabric, a shimmering sculpture made from tragedy and pain.',
       analysis: 'Using pins to make a blouse entangles delicacy and violence, freedom and confinement. Beauty made from material rooted in tragedy. An effect generated opposite to the expected material effect; a object that we would expect to be undermined by its material compositionis actually reinforced by it.',
       thumbnail: ['assets/database/salcedo-02.jpg'],
       image: ['assets/database/salcedo-01.jpg'],
