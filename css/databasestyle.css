@@ -181,6 +181,27 @@ button {
   color: white;
 }
 
+.explanation {
+  position: absolute;
+  left: 0;
+  top: 1.5em;
+  width: 96%;
+  height: auto;
+  text-align: center;
+  line-height: .8em;
+  background-color: white;
+  display: none;
+  z-index: 10;
+}
+
+.buttonwrapper {
+  position: relative;
+}
+
+.buttonwrapper:hover .explanation {
+  display: block;
+}
+
 #paradoxes:hover, #abstractions:hover, #foreigners:hover, #distortions:hover, #novelties:hover, #reveals:hover, #proliferations:hover {
   background-color: white;
   color: var(--wonder-color);
