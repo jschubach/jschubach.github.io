@@ -1,0 +1,16 @@
+How to use the script:
+
+in Illustrator, name layers for pictures: 'pic_A', 'pic_B', 'pic_C'
+in Illustrator, name layers for points: 'point_A', 'point_B', 'point_B'
+in Illustrator, make 'pic_X' layer a sub-layer of corresponding 'point_X'
+in Illustrator, export pictures as assets using right click > export selection > set JPG > Export Asset
+in Illustrator, SAVE file as an SVG with images LINKED
+
+in SVG Code, paste styles 
+in SVG Code, set class of all pics to "hide"
+in SVG Code, update <image> xlink:href to exported .jpg file asset
+in SVG Code, confirm <g> containing <image> is a child of <g> containing point
+
+in JS Code, update 'suffixes' array according to number of points being input
+
+copy .svg, .jpg, and .js files into proper site directories
