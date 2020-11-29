@@ -1,9 +1,6 @@
 function initnav() {
   navlinks = [
     {
-      name: 'Home',
-      href: 'index.html'
-    },{
       name: 'Research Archive',
       href: 'archive.html'
     },{
@@ -12,6 +9,9 @@ function initnav() {
     },{
       name: 'Presentation',
       href: 'slides.html'
+    },{
+      name: 'Project',
+      href: 'desk.html'
     },{
       name: 'Pin-up Wall',
       href: 'desk.html'
