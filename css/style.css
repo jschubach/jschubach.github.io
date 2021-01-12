@@ -164,17 +164,36 @@
 
   .project-wrapper {
     display: block;
-    margin-top: 6em;
+    margin-top: 4.5em;
     margin-left: 13em;
     margin-right: 13em;
+    margin-bottom: 3em;
   }
 
-  /* .svg-wrapper {
+  .textlist-wrapper {
+    display: block;
+    margin-top: 12vw;
+    margin-left: 13em;
+    margin-right: 13em;
+    margin-bottom: 3em;
+  }
+
+
+  .svg-wrapper {
     flex: 20;
     flex-flow: column;
     flex-wrap: wrap;
     justify-content: center;
-  } */
+  }
+
+  .gif-grid-wrapper {
+      display: grid;
+      --cell: 50vw;
+      --grid: repeat(2, var(--cell));
+      grid-template: var(--grid) / var(--grid);
+      grid-gap: 1em;
+      justify-content: center;
+  }
 
   .centered {
     display: flex;
@@ -320,6 +339,17 @@
   letter-spacing: .03em;
 }
 
+.text-h1 {
+  font-family: 'Freight';
+  font-size: xx-large;
+  font-style: normal;
+  font-weight: 400;
+  color: var(--title-color);
+  text-align: center;
+  letter-spacing: .03em;
+}
+
+
 /* .text-h:hover {
   color: #f1e7e7;
 } */
@@ -333,6 +363,17 @@
   text-align: center;
   letter-spacing: .03em;
 }
+
+.text-a1 {
+  font-family: 'Freight';
+  font-size: xx-large;
+  font-style: normal;
+  font-weight: 400;
+  color: var(--title-color);
+  text-align: center;
+  letter-spacing: .03em;
+}
+
 
 .text-q {
   font-family: 'Freight';
@@ -442,7 +483,7 @@ header, footer {
   flex-flow: column;
   flex-wrap: wrap;
   justify-content: center;
-  border: 1px dotted var(--title-color);
+  /* border: 1px dotted var(--title-color); */
 }
 
 .pdf-iframe{
@@ -450,6 +491,8 @@ header, footer {
   border: 0;
   margin-top: 2em;
   margin-bottom: 2em;
+  margin-left: 1em;
+  margin-right: 1em;
 }
 
 nav {
