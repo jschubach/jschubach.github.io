@@ -445,16 +445,12 @@ iframe .google-slides-container {
     height: 98%;
 }
 
-iframe .table {
-  display: block;
-  text-align: center;
-  margin-left: 2em;
-  margin-right: 2em;
-  padding: 5em;
-  padding-top: 5em;
-  border: none;
-  width: 78%;
-  height: 60vh;
+iframe#table{
+    position: absolute;
+    top: 5em;
+    left: 20vw;
+    width: 60%;
+    height: 55%;
 }
 
 iframe#miro {
