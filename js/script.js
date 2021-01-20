@@ -142,7 +142,8 @@ function clearCardsContainer() {
 
 function addButtonSensor(buttonID, selcriterion) {
   var button = document.querySelector(buttonID);
-  let selector = button.id;
+  // console.log(button);
+  var selector = button.id;
   // console.log(selector);
   // var confirmation = buttonID.concat(" sensor added");
   // console.log(confirmation);
